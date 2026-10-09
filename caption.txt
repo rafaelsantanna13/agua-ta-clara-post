@@ -14,24 +14,24 @@ Botafogo: 9,2
 Copacabana: 7,4
 Praia do Flamengo: 9,2
 Ipanema: 7,4
-Praia Vermelha: sem nota · faltam dados
+Praia Vermelha: 9,2
 
 🤿 MERGULHO · HEURÍSTICA · confiança baixa
 Arpoador: 7,2
 P6: 5,3
 Leme: 5,3
-Praia Vermelha: sem nota · faltam dados
+Praia Vermelha: 6,4
 
 🏄‍♀️ SUP · confiança baixa
 P5/P6: 4,5 ⚠️ alerta
-  ↳ Alerta: ondas acima do limite de referência; vento terral forte.
-Praia Vermelha: sem nota · faltam dados ⚠️ alerta
-  ↳ Alerta: rajadas fortes.
+  ↳ Alerta: vento terral forte; ondas acima do limite de referência.
+Praia Vermelha: 7,3 ⚠️ alerta
+  ↳ Alerta: rajadas fortes; ondas acima do limite de referência.
 
 🛶 CANOA · confiança baixa
 P6: 8,3 ⚠️ alerta
   ↳ Alerta: ondas acima do limite de referência.
-Praia Vermelha: sem nota · faltam dados
+Praia Vermelha: 8,7
 
 🧭 COMO LER
 As notas combinam condições ambientais e regras específicas de cada atividade na janela diurna. Alertas de segurança podem limitar ou bloquear uma atividade mesmo quando a nota física seria boa.
