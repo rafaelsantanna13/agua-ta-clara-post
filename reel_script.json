@@ -1,0 +1,21 @@
+{
+  "duration_seconds": 15,
+  "format": "1080x1920",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Zé Marola conferiu as condições. O mar, como sempre, não respondeu o e-mail."
+    },
+    {
+      "start": 4,
+      "end": 11,
+      "text": "Destaque da rodada: NATAÇÃO em Praia do Flamengo, nota 8,6. O resto está no carrossel."
+    },
+    {
+      "start": 11,
+      "end": 15,
+      "text": "Notas e alertas completos no carrossel. Confere o mar antes de entrar."
+    }
+  ]
+}

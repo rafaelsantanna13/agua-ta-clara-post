@@ -1,33 +1,33 @@
-A matemática chegou cedo. A colaboração do oceano segue facultativa.
+Zé Marola garante os números. Garantir o mar já seria abuso de confiança.
 
 🌊 CONDIÇÕES DO DIA · MORNING NOWCAST 09/10
-O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,3. Começamos cedo sendo cobrados.
+O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,5. Começamos cedo sendo cobrados.
 
 🏄 SURF · confiança baixa
-Arpoador: 5,3
-P5: 6,8
-P6: 1,0 · Windguru <2 m: teto 1,0
+Arpoador: 5,5
+P5: 6,6
+P6: sem nota · faltam dados · Windguru <2 m: teto 1,0
 Ipanema: 6,7
-Praia do Diabo: 5,8
+Praia do Diabo: 6,0
 
 🏊 NATAÇÃO · confiança baixa
 Botafogo: sem nota · faltam dados
-Copacabana: 6,9
+Copacabana: 7,0
 Praia do Flamengo: 8,6
 Ipanema: 6,8
 Praia Vermelha: 8,6
 
 🤿 MERGULHO · HEURÍSTICA · confiança baixa
-Arpoador: 5,7
+Arpoador: 5,3
 P6: 4,3
-Leme: 4,3
+Leme: 4,5
 Praia Vermelha: 4,9
 
 🏄‍♀️ SUP · confiança baixa
 P5/P6: 7,9 ⚠️ alerta
   ↳ Alerta: ondas acima do limite de referência.
 Praia Vermelha: 6,2 ⚠️ alerta
-  ↳ Alerta: ondas acima do limite de referência; rajadas fortes.
+  ↳ Alerta: rajadas fortes; ondas acima do limite de referência.
 
 🛶 CANOA · confiança baixa
 P6: 8,1 ⚠️ alerta
