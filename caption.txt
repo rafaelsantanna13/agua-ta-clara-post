@@ -1,4 +1,4 @@
-O algoritmo trabalhou. Zé Marola agora aguarda a auditoria das ondas.
+Boletim pronto. Zé Marola já separou a desculpa caso o mar mude de ideia.
 
 🌊 PREVISÃO 10/10
 
@@ -26,7 +26,7 @@ Praia Vermelha: 6,4
 P5/P6: 4,5 ⚠️ alerta
   ↳ Alerta: vento terral forte; ondas acima do limite de referência.
 Praia Vermelha: 7,3 ⚠️ alerta
-  ↳ Alerta: rajadas fortes; ondas acima do limite de referência.
+  ↳ Alerta: ondas acima do limite de referência; rajadas fortes.
 
 🛶 CANOA · confiança baixa
 P6: 8,3 ⚠️ alerta
