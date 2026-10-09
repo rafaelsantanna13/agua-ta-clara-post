@@ -1,37 +1,39 @@
-Boletim pronto. Zé Marola já separou a desculpa caso o mar mude de ideia.
+O algoritmo trabalhou. Zé Marola agora aguarda a auditoria das ondas.
 
-🌊 PREVISÃO 10/10
+🌊 CONDIÇÕES DO DIA · MORNING NOWCAST 09/10
+O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,5. Começamos cedo sendo cobrados.
 
 🏄 SURF · confiança baixa
-Arpoador: 4,0
-P5: 5,7
-P6: 1,0 · Windguru <2 m: teto 1,0
-Ipanema: 5,8
-Praia do Diabo: 4,5
+Arpoador: 5,5
+P5: 6,6
+P6: sem nota · faltam dados · Windguru <2 m: teto 1,0
+Ipanema: 6,7
+Praia do Diabo: 6,0
 
 🏊 NATAÇÃO · confiança baixa
-Botafogo: 8,9
-Copacabana: 7,3
-Praia do Flamengo: 8,9
-Ipanema: 7,3
-Praia Vermelha: 8,9
+Botafogo: 8,5
+Copacabana: 7,0
+Praia do Flamengo: 8,5
+Ipanema: 6,8
+Praia Vermelha: 8,5
 
 🤿 MERGULHO · HEURÍSTICA · confiança baixa
-Arpoador: 7,2
-P6: 5,3
-Leme: 5,3
-Praia Vermelha: 6,4
+Arpoador: 5,3
+P6: 4,3
+Leme: 4,5
+Praia Vermelha: 4,9
 
 🏄‍♀️ SUP · confiança baixa
-P5/P6: 4,4 ⚠️ alerta
-  ↳ Alerta: vento terral forte; ondas acima do limite de referência.
-Praia Vermelha: 7,1 ⚠️ alerta
-  ↳ Alerta: rajadas fortes; ondas acima do limite de referência.
+P5/P6: 7,8 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência.
+Praia Vermelha: 5,4 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência; rajadas fortes.
 
 🛶 CANOA · confiança baixa
-P6: 8,2 ⚠️ alerta
+P6: 8,0 ⚠️ alerta
   ↳ Alerta: ondas acima do limite de referência.
-Praia Vermelha: 8,6
+Praia Vermelha: 8,0 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência.
 
 🧭 COMO LER
 As notas combinam condições ambientais e regras específicas de cada atividade na janela diurna. Alertas de segurança podem limitar ou bloquear uma atividade mesmo quando a nota física seria boa.
