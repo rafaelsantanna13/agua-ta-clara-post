@@ -1,4 +1,4 @@
-O mar recebeu a planilha. Ainda não confirmou presença.
+O algoritmo trabalhou. Zé Marola agora aguarda a auditoria das ondas.
 
 🌊 CONDIÇÕES DO DIA · MORNING NOWCAST 09/10
 O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,5. Começamos cedo sendo cobrados.
@@ -27,7 +27,7 @@ Praia Vermelha: 4,9
 P5/P6: 7,9 ⚠️ alerta
   ↳ Alerta: ondas acima do limite de referência.
 Praia Vermelha: 6,2 ⚠️ alerta
-  ↳ Alerta: ondas acima do limite de referência; rajadas fortes.
+  ↳ Alerta: rajadas fortes; ondas acima do limite de referência.
 
 🛶 CANOA · confiança baixa
 P6: 8,1 ⚠️ alerta
