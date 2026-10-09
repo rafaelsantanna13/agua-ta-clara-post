@@ -1,4 +1,4 @@
-Tem nota, tem previsão e tem Zé Marola. Só falta o oceano colaborar.
+A matemática chegou cedo. A colaboração do oceano segue facultativa.
 
 🌊 CONDIÇÕES DO DIA · MORNING NOWCAST 09/10
 O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,3. Começamos cedo sendo cobrados.
@@ -6,13 +6,13 @@ O Zé Marola prometeu 5,3 no Arpoador e o cálculo da manhã deu 5,3. Começamos
 🏄 SURF · confiança baixa
 Arpoador: 5,3
 P5: 6,8
-P6: 1,0 ⚠️ gate ativo · Windguru <2 m: teto 1,0
+P6: 1,0 · Windguru <2 m: teto 1,0
 Ipanema: 6,7
 Praia do Diabo: 5,8
 
 🏊 NATAÇÃO · confiança baixa
-Botafogo: 8,6
-Copacabana: sem nota · faltam dados
+Botafogo: sem nota · faltam dados
+Copacabana: 6,9
 Praia do Flamengo: 8,6
 Ipanema: 6,8
 Praia Vermelha: 8,6
@@ -24,14 +24,25 @@ Leme: 4,3
 Praia Vermelha: 4,9
 
 🏄‍♀️ SUP · confiança baixa
-P5/P6: 7,9 ⚠️ gate ativo
-Praia Vermelha: 6,2 ⚠️ gate ativo
+P5/P6: 7,9 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência.
+Praia Vermelha: 6,2 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência; rajadas fortes.
 
 🛶 CANOA · confiança baixa
-P6: 8,1 ⚠️ gate ativo
-Praia Vermelha: 8,1 ⚠️ gate ativo
+P6: 8,1 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência.
+Praia Vermelha: 8,1 ⚠️ alerta
+  ↳ Alerta: ondas acima do limite de referência.
 
-Confiança resumida por atividade acima; detalhes de evidência ficam no relatório.
+🧭 COMO LER
+As notas combinam condições ambientais e regras específicas de cada atividade na janela diurna. Alertas de segurança podem limitar ou bloquear uma atividade mesmo quando a nota física seria boa.
+
+📡 DE ONDE VÊM OS DADOS
+O pipeline cruza previsões e observações disponíveis de vento, rajadas, ondas, corrente, chuva, céu, maré e qualidade da água. Entre as fontes integradas estão Windguru, Open-Meteo, NOAA, INEA, SiMCosta, HYCOM e interfaces oficiais PNBOIA/Marinha quando disponíveis. Fonte ausente reduz a confiança; não é preenchida como se tivesse sido medida.
+
+🎯 CONFIANÇA
+A confiança acima resume a qualidade e a cobertura das evidências disponíveis para cada atividade. Mergulho pode usar uma heurística ambiental quando não há medição direta de visibilidade.
 INEA não verificado em parte ou em todos os pontos: nota física não confirma água própria.
 Mergulho heurístico: sem visibilidade medida; confiança limitada a 25%.
 Zé Marola confia na planilha. O mar ainda não assinou embaixo.
