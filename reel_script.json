@@ -6,20 +6,20 @@
     {
       "start": 0,
       "end": 4,
-      "text": "Zé Marola conferiu as condições. O mar, como sempre, não respondeu o e-mail.",
+      "text": "Zé Marola fez a previsão de amanhã. Agora falta combinar com o oceano.",
       "speech": "Zé Marola na área. O mar não respondeu."
     },
     {
       "start": 4,
       "end": 11,
-      "text": "Destaque da rodada: NATAÇÃO em Enseada de Botafogo, nota 8,6. O resto está no carrossel.",
-      "speech": "Destaque: NATAÇÃO em Enseada de Botafogo. Nota 8,6."
+      "text": "Destaque da rodada: NATAÇÃO em Enseada de Botafogo, nota 8,9. O resto está no carrossel.",
+      "speech": "Destaque: NATAÇÃO em Enseada de Botafogo. Nota 8,9."
     },
     {
       "start": 11,
       "end": 15,
       "text": "Notas e alertas completos no carrossel. Confere o mar antes de entrar.",
-      "speech": "Veja o carrossel. E confira o mar!"
+      "speech": "Veja mais detalhes na legenda ou no perfil."
     }
   ]
 }
