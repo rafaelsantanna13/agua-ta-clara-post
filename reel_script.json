@@ -1,21 +1,25 @@
 {
+  "voice": "pt_BR-jeff-medium",
   "duration_seconds": 15,
   "format": "1080x1920",
   "scenes": [
     {
       "start": 0,
       "end": 4,
-      "text": "Zé Marola conferiu as condições. O mar, como sempre, não respondeu o e-mail."
+      "text": "Zé Marola conferiu as condições. O mar, como sempre, não respondeu o e-mail.",
+      "speech": "Zé Marola na área. O mar não respondeu."
     },
     {
       "start": 4,
       "end": 11,
-      "text": "Destaque da rodada: NATAÇÃO em Praia do Flamengo, nota 8,6. O resto está no carrossel."
+      "text": "Destaque da rodada: NATAÇÃO em Enseada de Botafogo, nota 8,6. O resto está no carrossel.",
+      "speech": "Destaque: NATAÇÃO em Enseada de Botafogo. Nota 8,6."
     },
     {
       "start": 11,
       "end": 15,
-      "text": "Notas e alertas completos no carrossel. Confere o mar antes de entrar."
+      "text": "Notas e alertas completos no carrossel. Confere o mar antes de entrar.",
+      "speech": "Veja o carrossel. E confira o mar!"
     }
   ]
 }
