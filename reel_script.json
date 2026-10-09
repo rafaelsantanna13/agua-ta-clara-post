@@ -1,24 +1,44 @@
 {
   "voice": "pt-BR-FabioNeural",
-  "duration_seconds": 15,
+  "voice_preference": "pt-BR-FabioNeural",
+  "fallback_voice": "pt_BR-jeff-medium",
+  "duration_seconds": 10,
   "format": "1080x1920",
+  "editorial": {
+    "editorial_version": "2.0",
+    "hook_type": "best_score",
+    "headline": "NATAÇÃO · Botafogo · 8,5",
+    "cta_type": "comment_share",
+    "reel_duration": 10,
+    "mascot_use": "reaction_after_data",
+    "promise": "Condições às 6h · previsão de amanhã às 17h",
+    "card_headlines": {
+      "surf": "Ipanema lidera o surf · 6,7",
+      "water": "Melhor aposta: NATAÇÃO em Botafogo · 8,5",
+      "paddling": "Dia bom para remar: Praia Vermelha · 8,0"
+    },
+    "mascot_reaction": "Zé já separou o remo."
+  },
   "scenes": [
     {
       "start": 0,
-      "end": 4,
-      "text": "Zé Marola fez a previsão de amanhã. Agora falta combinar com o oceano.",
-      "speech": "Zé Marola na área. O mar não respondeu."
+      "end": 3,
+      "role": "data_hook",
+      "text": "NATAÇÃO · Botafogo · 8,5",
+      "speech": "NATAÇÃO em Botafogo. Nota 8,5."
     },
     {
-      "start": 4,
-      "end": 11,
-      "text": "Destaque da rodada: NATAÇÃO em Enseada de Botafogo, nota 9,2. O resto está no carrossel.",
-      "speech": "Destaque: NATAÇÃO em Enseada de Botafogo. Nota 9,2."
+      "start": 3,
+      "end": 6,
+      "role": "mascot_reaction",
+      "text": "Zé já separou a touca.",
+      "speech": "Zé já separou a touca."
     },
     {
-      "start": 11,
-      "end": 15,
-      "text": "Notas e alertas completos no carrossel. Confere o mar antes de entrar.",
+      "start": 6,
+      "end": 10,
+      "role": "cta",
+      "text": "Veja mais detalhes na legenda ou no perfil. Condições às 6h · previsão de amanhã às 17h.",
       "speech": "Veja mais detalhes na legenda ou no perfil."
     }
   ]
