@@ -16,8 +16,8 @@ P5/P6 7,5 · Praia Vermelha 6,0
 🛶 CANOA · conf. baixa
 P6 8,9 · Praia Vermelha 8,9
 
-⚠️ 🏄‍♀️ SUP · P5/P6: ondas acima do limite de referência; vento terral forte
-⚠️ 🏄‍♀️ SUP · Praia Vermelha: ondas acima do limite de referência; rajadas fortes
+⚠️ 🏄‍♀️ SUP · P5/P6: vento terral forte; ondas acima do limite de referência
+⚠️ 🏄‍♀️ SUP · Praia Vermelha: rajadas fortes; ondas acima do limite de referência
 
 💾 Salva para conferir amanhã cedo.
 👀 Amanhã, se vir diferente, comenta o pico + horário.
