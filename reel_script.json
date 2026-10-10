@@ -7,7 +7,7 @@
   "editorial": {
     "editorial_version": "2.7",
     "hook_type": "best_score",
-    "headline": "NATAÇÃO · Praia do Flamengo · 9,0",
+    "headline": "NATAÇÃO · Praia do Flamengo · 8,9",
     "cta_type": "comment_share",
     "reel_duration": 10,
     "mascot_use": "activity_asset_after_data",
@@ -17,18 +17,18 @@
     "mascot_candidates": [
       {
         "family": "swimming",
-        "score": 8.96
+        "score": 8.87
       },
       {
         "family": "paddling",
-        "score": 8.61
+        "score": 8.48
       }
     ],
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
       "surf": "P5 lidera o surf · 6,0",
-      "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 9,0",
-      "paddling": "Dia bom para remar: Praia Vermelha · 8,6"
+      "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,9",
+      "paddling": "Dia bom para remar: P6 · 8,5"
     },
     "mascot_reaction": "Zé já separou a touca e os óculos."
   },
@@ -37,8 +37,8 @@
       "start": 0,
       "end": 3,
       "role": "data_hook",
-      "text": "NATAÇÃO · Praia do Flamengo · 9,0",
-      "speech": "NATAÇÃO em Praia do Flamengo. Nota 9,0."
+      "text": "NATAÇÃO · Praia do Flamengo · 8,9",
+      "speech": "NATAÇÃO em Praia do Flamengo. Nota 8,9."
     },
     {
       "start": 3,
