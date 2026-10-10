@@ -5,8 +5,9 @@
   "duration_seconds": 10,
   "format": "1080x1920",
   "editorial": {
-    "editorial_version": "3.2",
+    "editorial_version": "3.3",
     "hook_type": "best_score",
+    "reel_feature_activity": "swimming",
     "headline": "NATAÇÃO · Praia do Flamengo · 9,1",
     "cta_type": "save",
     "reel_duration": 10,
@@ -18,9 +19,9 @@
     "reel_background_source_crop": "top_360px_removed_before_packaging",
     "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
     "mascot_use": "activity_asset_after_data",
-    "mascot_activity_selected": "paddling",
-    "mascot_asset_selected": "assets/ze-marola-paddling.webp",
-    "mascot_selection_reason": "near_tie_rotation",
+    "mascot_activity_selected": "swimming",
+    "mascot_asset_selected": "assets/ze-marola-swimming.webp",
+    "mascot_selection_reason": "top_score",
     "mascot_candidates": [
       {
         "family": "swimming",
@@ -35,9 +36,12 @@
         "score": 8.61
       }
     ],
-    "reel_reaction_activity": "canoe",
-    "reel_reaction": "Água amiga. O bíceps decide depois.",
-    "reel_reaction_index": 3,
+    "reel_mascot_activity_selected": "swimming",
+    "reel_mascot_asset_selected": "assets/ze-marola-swimming.webp",
+    "reel_mascot_selection_reason": "best_score",
+    "reel_reaction_activity": "swimming",
+    "reel_reaction": "Dá pra nadar e fingir disciplina.",
+    "reel_reaction_index": 2,
     "reel_reaction_mode": "deterministic_rotation",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
@@ -45,7 +49,7 @@
       "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 9,1",
       "paddling": "Dia bom para remar: P6 · 8,9"
     },
-    "mascot_reaction": "Zé já separou o remo."
+    "mascot_reaction": "Zé separou o kit de natação."
   },
   "scenes": [
     {
@@ -59,8 +63,8 @@
       "start": 3,
       "end": 6,
       "role": "mascot_reaction",
-      "text": "Água amiga. O bíceps decide depois.",
-      "speech": "Água amiga. O bíceps decide depois."
+      "text": "Dá pra nadar e fingir disciplina.",
+      "speech": "Dá pra nadar e fingir disciplina."
     },
     {
       "start": 6,
