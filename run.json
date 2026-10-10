@@ -6,11 +6,12 @@
     "version": "timestamped_surf_update_v1.0",
     "scope": "surf_at_reported_instant_other_activities_daily_mean",
     "surf_evaluation_at": "2026-10-10T10:00:00-03:00",
-    "correction_run_id": "manual-surf-2026-10-10-38064006289",
-    "correction_git_commit": "92f02f1cc7db4ed057db64237cbe35635a3a36af",
+    "correction_run_id": "manual-surf-2026-10-10-38067633638",
+    "correction_git_commit": "3fd5d85d100d5715f4a62c1a14d10bac6b854daf",
     "raw_assessment": {
       "assessment_id": "surfconnect-images-2026-10-10-1012",
       "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+      "editorial_refresh_reason": "test Reel video background v3.2",
       "evidence": {
         "arpoador": {
           "displayed_height_m": 0.5,
@@ -43,7 +44,7 @@
         }
       },
       "portal_observed_at": "2026-10-10T10:00:00-03:00",
-      "publication_refresh_requested_at": "2026-10-10T12:31:00-03:00",
+      "publication_refresh_requested_at": "2026-10-10T13:26:00-03:00",
       "publish_to_site": true,
       "raw_statement": "Imagens do Surfconnect: Arpex Bom 0.5 m; Copa P5 Ruim 0.25 m; Diabo Ruim 0.5 m; Ipanema Ruim 0.5 m. P6 aparece como Bom para banhistas, portanto não foi usado como classificação de surf.",
       "reported_at": "2026-10-10T10:12:00-03:00",
