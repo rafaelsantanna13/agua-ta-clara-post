@@ -1,5 +1,1025 @@
 {
   "run_id": "morning_nowcast-2026-10-10-20261010T115643-0b5b6d10",
   "kind": "morning_nowcast",
-  "target_date": "2026-10-10"
+  "target_date": "2026-10-10",
+  "publication_view": {
+    "version": "timestamped_surf_update_v1.0",
+    "scope": "surf_at_reported_instant_other_activities_daily_mean",
+    "surf_evaluation_at": "2026-10-10T10:00:00-03:00",
+    "correction_run_id": "manual-surf-2026-10-10-38064006289",
+    "correction_git_commit": "92f02f1cc7db4ed057db64237cbe35635a3a36af",
+    "raw_assessment": {
+      "assessment_id": "surfconnect-images-2026-10-10-1012",
+      "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+      "evidence": {
+        "arpoador": {
+          "displayed_height_m": 0.5,
+          "portal_label": "Bom",
+          "portal_name": "Arpex",
+          "use_in_surfability": true
+        },
+        "copacabana_p5": {
+          "displayed_height_m": 0.25,
+          "portal_label": "Ruim",
+          "portal_name": "Copa P5",
+          "use_in_surfability": true
+        },
+        "copacabana_p6": {
+          "portal_label": "Bom para banhistas",
+          "reason": "A categoria visível é de banho, não uma classificação de surf.",
+          "use_in_surfability": false
+        },
+        "ipanema": {
+          "displayed_height_m": 0.5,
+          "portal_label": "Ruim",
+          "portal_name": "Ipanema",
+          "use_in_surfability": true
+        },
+        "praia_do_diabo": {
+          "displayed_height_m": 0.5,
+          "portal_label": "Ruim",
+          "portal_name": "Diabo",
+          "use_in_surfability": true
+        }
+      },
+      "portal_observed_at": "2026-10-10T10:00:00-03:00",
+      "publication_refresh_requested_at": "2026-10-10T12:31:00-03:00",
+      "publish_to_site": true,
+      "raw_statement": "Imagens do Surfconnect: Arpex Bom 0.5 m; Copa P5 Ruim 0.25 m; Diabo Ruim 0.5 m; Ipanema Ruim 0.5 m. P6 aparece como Bom para banhistas, portanto não foi usado como classificação de surf.",
+      "reported_at": "2026-10-10T10:12:00-03:00",
+      "reported_by": "user",
+      "source": "surfconnect",
+      "spot_labels": {
+        "arpoador": "bom",
+        "copacabana_p5": "ruim",
+        "ipanema": "ruim",
+        "praia_do_diabo": "ruim"
+      },
+      "spots": [
+        "arpoador",
+        "copacabana_p5",
+        "ipanema",
+        "praia_do_diabo"
+      ]
+    },
+    "surf_products": [
+      {
+        "activity": "surf",
+        "confidence": 0.4,
+        "confidence_label": "low",
+        "diagnostics": {
+          "assessment_id": "surfconnect-images-2026-10-10-1012",
+          "confidence_calculation": {
+            "confidence": 0.4,
+            "confidence_label": "low",
+            "manual_assessment_cap": 0.4,
+            "model_version": "confidence_v1.0.1",
+            "surf_evidence_cap": 0.4,
+            "variables": {
+              "manual_surfability_label": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 1.0,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.25
+                },
+                "confidence": 0.4625,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "period_s": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 1.0
+                },
+                "confidence": 0.5138,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "swell_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 1.0
+                },
+                "confidence": 0.5138,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wave_height_m": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 1.0
+                },
+                "confidence": 0.5138,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 1.0
+                },
+                "confidence": 0.5138,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_speed_knots": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 1.0
+                },
+                "confidence": 0.5138,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              }
+            }
+          },
+          "confidence_cap": 0.4,
+          "environmental_policy": "conservative_lower_bound",
+          "environmental_potential": 0.73,
+          "fatal_missing_inputs": [],
+          "gate_applied": false,
+          "gates": {},
+          "missing_inputs": [
+            "tide_quality"
+          ],
+          "observation_scope": "instantaneous_only",
+          "original_model_score": 3.94,
+          "potential_components": {
+            "period": 0.75,
+            "swell_direction": 0.8,
+            "wind": 1.0
+          },
+          "raw_score": 5.99,
+          "sanitary_status": "unverified",
+          "score": 5.99,
+          "score_bounds": {
+            "lower": 5.99,
+            "meaning": "unknown_tide_algebraic_bounds_not_statistical_interval",
+            "upper": 7.22
+          },
+          "sea_representation": {
+            "confidence_cap": 0.59,
+            "definition": "Hs offshore é usada explicitamente como proxy conservador de agitação; nenhum fator arbitrário de redução por praia é aplicado.",
+            "mode": "offshore_model_proxy"
+          },
+          "spot_calibration_modifier": null,
+          "status": "experimental",
+          "surfability": 0.82,
+          "surfability_before_spot_modifier": 0.82,
+          "surfability_components": {
+            "manual_assessment_quality": 0.82
+          },
+          "surfability_evidence": {
+            "components": {
+              "manual_assessment_quality": 0.82
+            },
+            "confidence_cap": 0.4,
+            "data_kind": "derived",
+            "definition": "Categorias qualitativas observadas pelo usuário no Surfconnect são mapeadas para a escala interna de surfabilidade: ruim=.20, surfável=.50 e bom=.82. O mapeamento reutiliza Poor/Fair/Good apenas como referência numérica interna; não afirma que o Surfconnect use a escala Surfline.",
+            "input_provenance": {
+              "manual_surfability_label": {
+                "access_mode": "user_reported_authorized",
+                "age_basis": "portal_timestamp",
+                "age_hours": 0.0,
+                "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+                "confidence": null,
+                "coordinates": null,
+                "coordinates_source": "unknown_in_user_report",
+                "data_kind": "manual_authorized",
+                "evidence_kind": "qualitative_user_report",
+                "fetched_at": "2026-10-10T10:12:00-03:00",
+                "model": null,
+                "model_family": null,
+                "model_init": null,
+                "model_version": "manual_surf_assessment_v0.2",
+                "observed_at": "2026-10-10T10:00:00-03:00",
+                "portal_age_hours": 0.2,
+                "portal_observed_at": "2026-10-10T10:00:00-03:00",
+                "reported_at": "2026-10-10T10:12:00-03:00",
+                "reported_by": "user",
+                "source": "surfconnect",
+                "source_url": null,
+                "time_basis": "portal_timestamp",
+                "units": "category",
+                "valid_time": "2026-10-10T10:00:00-03:00",
+                "value": "bom",
+                "variable": "manual_surfability_label",
+                "warnings": [
+                  "Surfabilidade informada manualmente pelo usuário; não coletada via API."
+                ]
+              }
+            },
+            "inputs": [
+              "manual_surfability_label"
+            ],
+            "missing_inputs": [],
+            "mode": "manual_authorized_assessment",
+            "model_version": "manual_surf_assessment_v0.2",
+            "source": "user_reported_surfconnect",
+            "status": "manual_authorized",
+            "surfline_used": false,
+            "units": "1",
+            "value": 0.82,
+            "warnings": [
+              "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã."
+            ]
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "surfability_version": "manual_surf_assessment_v0.2",
+          "surfline_input_grade": null,
+          "surfline_like_rating": {
+            "label": "fair",
+            "ordinal": 4,
+            "origin": "internal_ordinal_label_not_a_surfline_input",
+            "status": "smoke_test_only"
+          },
+          "surfline_used": false,
+          "used_offshore_height_as_nearshore_fallback": false,
+          "visual_available": false,
+          "warnings": [
+            "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+            "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente."
+          ]
+        },
+        "duration_hours": 0.0,
+        "end": "2026-10-10T10:00:00-03:00",
+        "gates": {},
+        "missing_inputs": [
+          "tide_quality"
+        ],
+        "regime": {
+          "environmental_policy": "conservative_lower_bound",
+          "quality_bands": {
+            "rain_quality": 2,
+            "sky_quality": 2
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "tide_phase": "rising",
+          "wind_direction_deg": 193.0,
+          "wind_speed_knots": 3.0
+        },
+        "score": 5.99,
+        "scoring_version": "surf_v0.5",
+        "spot": "arpoador",
+        "status": "ok",
+        "timestamp": "2026-10-10T10:00:00-03:00",
+        "warnings": [
+          "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente.",
+          "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+          "SST prevista por modelo; não é medição de praia",
+          "Surfabilidade informada manualmente pelo usuário; não coletada via API.",
+          "model_init_unavailable; age_hours measures time since fetch"
+        ]
+      },
+      {
+        "activity": "surf",
+        "confidence": 0.3776,
+        "confidence_label": "low",
+        "diagnostics": {
+          "assessment_id": "surfconnect-images-2026-10-10-1012",
+          "confidence_calculation": {
+            "confidence": 0.3776,
+            "confidence_label": "low",
+            "manual_assessment_cap": 0.4,
+            "model_version": "confidence_v1.0.1",
+            "surf_evidence_cap": 0.4,
+            "variables": {
+              "manual_surfability_label": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 1.0,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.25
+                },
+                "confidence": 0.4625,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "period_s": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.48323136489191065
+                },
+                "confidence": 0.4362,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "swell_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.48323136489191065
+                },
+                "confidence": 0.4362,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wave_height_m": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.48323136489191065
+                },
+                "confidence": 0.4362,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.48323136489191065
+                },
+                "confidence": 0.4362,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_speed_knots": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.48323136489191065
+                },
+                "confidence": 0.4362,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              }
+            }
+          },
+          "confidence_cap": 0.4,
+          "environmental_policy": "conservative_lower_bound",
+          "environmental_potential": 0.7780833333333332,
+          "fatal_missing_inputs": [],
+          "gate_applied": false,
+          "gates": {},
+          "missing_inputs": [
+            "tide_quality"
+          ],
+          "observation_scope": "instantaneous_only",
+          "original_model_score": 6.22,
+          "potential_components": {
+            "period": 0.6666666666666666,
+            "swell_direction": 1.0,
+            "wind": 0.9824999999999999
+          },
+          "raw_score": 1.56,
+          "sanitary_status": "unverified",
+          "score": 1.56,
+          "score_bounds": {
+            "lower": 1.56,
+            "meaning": "unknown_tide_algebraic_bounds_not_statistical_interval",
+            "upper": 1.86
+          },
+          "sea_representation": {
+            "confidence_cap": 0.59,
+            "definition": "Hs offshore é usada explicitamente como proxy conservador de agitação; nenhum fator arbitrário de redução por praia é aplicado.",
+            "mode": "offshore_model_proxy"
+          },
+          "spot_calibration_modifier": null,
+          "status": "experimental",
+          "surfability": 0.2,
+          "surfability_before_spot_modifier": 0.2,
+          "surfability_components": {
+            "manual_assessment_quality": 0.2
+          },
+          "surfability_evidence": {
+            "components": {
+              "manual_assessment_quality": 0.2
+            },
+            "confidence_cap": 0.4,
+            "data_kind": "derived",
+            "definition": "Categorias qualitativas observadas pelo usuário no Surfconnect são mapeadas para a escala interna de surfabilidade: ruim=.20, surfável=.50 e bom=.82. O mapeamento reutiliza Poor/Fair/Good apenas como referência numérica interna; não afirma que o Surfconnect use a escala Surfline.",
+            "input_provenance": {
+              "manual_surfability_label": {
+                "access_mode": "user_reported_authorized",
+                "age_basis": "portal_timestamp",
+                "age_hours": 0.0,
+                "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+                "confidence": null,
+                "coordinates": null,
+                "coordinates_source": "unknown_in_user_report",
+                "data_kind": "manual_authorized",
+                "evidence_kind": "qualitative_user_report",
+                "fetched_at": "2026-10-10T10:12:00-03:00",
+                "model": null,
+                "model_family": null,
+                "model_init": null,
+                "model_version": "manual_surf_assessment_v0.2",
+                "observed_at": "2026-10-10T10:00:00-03:00",
+                "portal_age_hours": 0.2,
+                "portal_observed_at": "2026-10-10T10:00:00-03:00",
+                "reported_at": "2026-10-10T10:12:00-03:00",
+                "reported_by": "user",
+                "source": "surfconnect",
+                "source_url": null,
+                "time_basis": "portal_timestamp",
+                "units": "category",
+                "valid_time": "2026-10-10T10:00:00-03:00",
+                "value": "ruim",
+                "variable": "manual_surfability_label",
+                "warnings": [
+                  "Surfabilidade informada manualmente pelo usuário; não coletada via API."
+                ]
+              }
+            },
+            "inputs": [
+              "manual_surfability_label"
+            ],
+            "missing_inputs": [],
+            "mode": "manual_authorized_assessment",
+            "model_version": "manual_surf_assessment_v0.2",
+            "source": "user_reported_surfconnect",
+            "status": "manual_authorized",
+            "surfline_used": false,
+            "units": "1",
+            "value": 0.2,
+            "warnings": [
+              "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã."
+            ]
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "surfability_version": "manual_surf_assessment_v0.2",
+          "surfline_input_grade": null,
+          "surfline_like_rating": {
+            "label": "poor",
+            "ordinal": 2,
+            "origin": "internal_ordinal_label_not_a_surfline_input",
+            "status": "smoke_test_only"
+          },
+          "surfline_used": false,
+          "used_offshore_height_as_nearshore_fallback": false,
+          "visual_available": false,
+          "warnings": [
+            "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+            "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente."
+          ]
+        },
+        "duration_hours": 0.0,
+        "end": "2026-10-10T10:00:00-03:00",
+        "gates": {},
+        "missing_inputs": [
+          "tide_quality"
+        ],
+        "regime": {
+          "environmental_policy": "conservative_lower_bound",
+          "quality_bands": {
+            "rain_quality": 2,
+            "sky_quality": 2
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "tide_phase": "rising",
+          "wind_direction_deg": 196.0,
+          "wind_speed_knots": 4.0
+        },
+        "score": 1.56,
+        "scoring_version": "surf_v0.5",
+        "spot": "copacabana_p5",
+        "status": "ok",
+        "timestamp": "2026-10-10T10:00:00-03:00",
+        "warnings": [
+          "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente.",
+          "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+          "SST prevista por modelo; não é medição de praia",
+          "Surfabilidade informada manualmente pelo usuário; não coletada via API.",
+          "model_init_unavailable; age_hours measures time since fetch"
+        ]
+      },
+      {
+        "activity": "surf",
+        "confidence": 0.4,
+        "confidence_label": "low",
+        "diagnostics": {
+          "assessment_id": "surfconnect-images-2026-10-10-1012",
+          "confidence_calculation": {
+            "confidence": 0.4,
+            "confidence_label": "low",
+            "manual_assessment_cap": 0.4,
+            "model_version": "confidence_v1.0.1",
+            "surf_evidence_cap": 0.4,
+            "variables": {
+              "manual_surfability_label": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 1.0,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.25
+                },
+                "confidence": 0.4625,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "period_s": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.7581562242361111,
+                  "independence": 0.25,
+                  "source_quality": 0.65,
+                  "spatial_representativeness": 0.5924251837711789
+                },
+                "confidence": 0.4576,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "swell_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.7581562242361111,
+                  "independence": 0.25,
+                  "source_quality": 0.65,
+                  "spatial_representativeness": 0.5924251837711789
+                },
+                "confidence": 0.4576,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wave_height_m": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.7581562242361111,
+                  "independence": 0.25,
+                  "source_quality": 0.65,
+                  "spatial_representativeness": 0.5924251837711789
+                },
+                "confidence": 0.4576,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.7581561347222222,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.8416764001406148
+                },
+                "confidence": 0.515,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_speed_knots": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.7581561347222222,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.8416764001406148
+                },
+                "confidence": 0.515,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              }
+            }
+          },
+          "confidence_cap": 0.4,
+          "environmental_policy": "conservative_lower_bound",
+          "environmental_potential": 0.7666666666666666,
+          "fatal_missing_inputs": [],
+          "gate_applied": false,
+          "gates": {},
+          "missing_inputs": [
+            "tide_quality"
+          ],
+          "observation_scope": "instantaneous_only",
+          "original_model_score": 6.13,
+          "potential_components": {
+            "period": 0.5833333333333334,
+            "swell_direction": 1.0,
+            "wind": 1.0
+          },
+          "raw_score": 1.53,
+          "sanitary_status": "unverified",
+          "score": 1.53,
+          "score_bounds": {
+            "lower": 1.53,
+            "meaning": "unknown_tide_algebraic_bounds_not_statistical_interval",
+            "upper": 1.83
+          },
+          "sea_representation": {
+            "confidence_cap": 0.59,
+            "definition": "Hs offshore é usada explicitamente como proxy conservador de agitação; nenhum fator arbitrário de redução por praia é aplicado.",
+            "mode": "offshore_model_proxy"
+          },
+          "spot_calibration_modifier": null,
+          "status": "experimental",
+          "surfability": 0.2,
+          "surfability_before_spot_modifier": 0.2,
+          "surfability_components": {
+            "manual_assessment_quality": 0.2
+          },
+          "surfability_evidence": {
+            "components": {
+              "manual_assessment_quality": 0.2
+            },
+            "confidence_cap": 0.4,
+            "data_kind": "derived",
+            "definition": "Categorias qualitativas observadas pelo usuário no Surfconnect são mapeadas para a escala interna de surfabilidade: ruim=.20, surfável=.50 e bom=.82. O mapeamento reutiliza Poor/Fair/Good apenas como referência numérica interna; não afirma que o Surfconnect use a escala Surfline.",
+            "input_provenance": {
+              "manual_surfability_label": {
+                "access_mode": "user_reported_authorized",
+                "age_basis": "portal_timestamp",
+                "age_hours": 0.0,
+                "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+                "confidence": null,
+                "coordinates": null,
+                "coordinates_source": "unknown_in_user_report",
+                "data_kind": "manual_authorized",
+                "evidence_kind": "qualitative_user_report",
+                "fetched_at": "2026-10-10T10:12:00-03:00",
+                "model": null,
+                "model_family": null,
+                "model_init": null,
+                "model_version": "manual_surf_assessment_v0.2",
+                "observed_at": "2026-10-10T10:00:00-03:00",
+                "portal_age_hours": 0.2,
+                "portal_observed_at": "2026-10-10T10:00:00-03:00",
+                "reported_at": "2026-10-10T10:12:00-03:00",
+                "reported_by": "user",
+                "source": "surfconnect",
+                "source_url": null,
+                "time_basis": "portal_timestamp",
+                "units": "category",
+                "valid_time": "2026-10-10T10:00:00-03:00",
+                "value": "ruim",
+                "variable": "manual_surfability_label",
+                "warnings": [
+                  "Surfabilidade informada manualmente pelo usuário; não coletada via API."
+                ]
+              }
+            },
+            "inputs": [
+              "manual_surfability_label"
+            ],
+            "missing_inputs": [],
+            "mode": "manual_authorized_assessment",
+            "model_version": "manual_surf_assessment_v0.2",
+            "source": "user_reported_surfconnect",
+            "status": "manual_authorized",
+            "surfline_used": false,
+            "units": "1",
+            "value": 0.2,
+            "warnings": [
+              "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã."
+            ]
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "surfability_version": "manual_surf_assessment_v0.2",
+          "surfline_input_grade": null,
+          "surfline_like_rating": {
+            "label": "poor",
+            "ordinal": 2,
+            "origin": "internal_ordinal_label_not_a_surfline_input",
+            "status": "smoke_test_only"
+          },
+          "surfline_used": false,
+          "used_offshore_height_as_nearshore_fallback": false,
+          "visual_available": false,
+          "warnings": [
+            "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+            "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente."
+          ]
+        },
+        "duration_hours": 0.0,
+        "end": "2026-10-10T10:00:00-03:00",
+        "gates": {},
+        "missing_inputs": [
+          "tide_quality"
+        ],
+        "regime": {
+          "environmental_policy": "conservative_lower_bound",
+          "quality_bands": {
+            "rain_quality": 2,
+            "sky_quality": 2
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "tide_phase": "rising",
+          "wind_direction_deg": 62.0,
+          "wind_speed_knots": 2.1
+        },
+        "score": 1.53,
+        "scoring_version": "surf_v0.5",
+        "spot": "ipanema",
+        "status": "ok",
+        "timestamp": "2026-10-10T10:00:00-03:00",
+        "warnings": [
+          "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente.",
+          "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+          "SST prevista por modelo; não é medição de praia",
+          "Surfabilidade informada manualmente pelo usuário; não coletada via API.",
+          "model_init_unavailable; age_hours measures time since fetch"
+        ]
+      },
+      {
+        "activity": "surf",
+        "confidence": 0.4,
+        "confidence_label": "low",
+        "diagnostics": {
+          "assessment_id": "surfconnect-images-2026-10-10-1012",
+          "confidence_calculation": {
+            "confidence": 0.4,
+            "confidence_label": "low",
+            "manual_assessment_cap": 0.4,
+            "model_version": "confidence_v1.0.1",
+            "surf_evidence_cap": 0.4,
+            "variables": {
+              "manual_surfability_label": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 1.0,
+                  "independence": 0.25,
+                  "source_quality": 0.75,
+                  "spatial_representativeness": 0.25
+                },
+                "confidence": 0.4625,
+                "families": [
+                  "unknown"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "period_s": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.9851993787993908
+                },
+                "confidence": 0.5115,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "swell_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.9851993787993908
+                },
+                "confidence": 0.5115,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wave_height_m": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.9851993787993908
+                },
+                "confidence": 0.5115,
+                "families": [
+                  "gfs_wave"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_direction_deg": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.9851993787993908
+                },
+                "confidence": 0.5115,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              },
+              "wind_speed_knots": {
+                "components": {
+                  "consensus": 0.25,
+                  "freshness": 0.45833333333333337,
+                  "independence": 0.25,
+                  "source_quality": 0.85,
+                  "spatial_representativeness": 0.9851993787993908
+                },
+                "confidence": 0.5115,
+                "families": [
+                  "gfs"
+                ],
+                "model_version": "confidence_v1.0.1"
+              }
+            }
+          },
+          "confidence_cap": 0.4,
+          "environmental_policy": "conservative_lower_bound",
+          "environmental_potential": 0.8,
+          "fatal_missing_inputs": [],
+          "gate_applied": false,
+          "gates": {},
+          "missing_inputs": [
+            "tide_quality"
+          ],
+          "observation_scope": "instantaneous_only",
+          "original_model_score": 4.32,
+          "potential_components": {
+            "period": 0.75,
+            "swell_direction": 1.0,
+            "wind": 1.0
+          },
+          "raw_score": 1.6,
+          "sanitary_status": "unverified",
+          "score": 1.6,
+          "score_bounds": {
+            "lower": 1.6,
+            "meaning": "unknown_tide_algebraic_bounds_not_statistical_interval",
+            "upper": 1.9
+          },
+          "sea_representation": {
+            "confidence_cap": 0.59,
+            "definition": "Hs offshore é usada explicitamente como proxy conservador de agitação; nenhum fator arbitrário de redução por praia é aplicado.",
+            "mode": "offshore_model_proxy"
+          },
+          "spot_calibration_modifier": null,
+          "status": "experimental",
+          "surfability": 0.2,
+          "surfability_before_spot_modifier": 0.2,
+          "surfability_components": {
+            "manual_assessment_quality": 0.2
+          },
+          "surfability_evidence": {
+            "components": {
+              "manual_assessment_quality": 0.2
+            },
+            "confidence_cap": 0.4,
+            "data_kind": "derived",
+            "definition": "Categorias qualitativas observadas pelo usuário no Surfconnect são mapeadas para a escala interna de surfabilidade: ruim=.20, surfável=.50 e bom=.82. O mapeamento reutiliza Poor/Fair/Good apenas como referência numérica interna; não afirma que o Surfconnect use a escala Surfline.",
+            "input_provenance": {
+              "manual_surfability_label": {
+                "access_mode": "user_reported_authorized",
+                "age_basis": "portal_timestamp",
+                "age_hours": 0.0,
+                "authorization_reference": "user-provided Surfconnect screenshots in ChatGPT on 2026-10-10",
+                "confidence": null,
+                "coordinates": null,
+                "coordinates_source": "unknown_in_user_report",
+                "data_kind": "manual_authorized",
+                "evidence_kind": "qualitative_user_report",
+                "fetched_at": "2026-10-10T10:12:00-03:00",
+                "model": null,
+                "model_family": null,
+                "model_init": null,
+                "model_version": "manual_surf_assessment_v0.2",
+                "observed_at": "2026-10-10T10:00:00-03:00",
+                "portal_age_hours": 0.2,
+                "portal_observed_at": "2026-10-10T10:00:00-03:00",
+                "reported_at": "2026-10-10T10:12:00-03:00",
+                "reported_by": "user",
+                "source": "surfconnect",
+                "source_url": null,
+                "time_basis": "portal_timestamp",
+                "units": "category",
+                "valid_time": "2026-10-10T10:00:00-03:00",
+                "value": "ruim",
+                "variable": "manual_surfability_label",
+                "warnings": [
+                  "Surfabilidade informada manualmente pelo usuário; não coletada via API."
+                ]
+              }
+            },
+            "inputs": [
+              "manual_surfability_label"
+            ],
+            "missing_inputs": [],
+            "mode": "manual_authorized_assessment",
+            "model_version": "manual_surf_assessment_v0.2",
+            "source": "user_reported_surfconnect",
+            "status": "manual_authorized",
+            "surfline_used": false,
+            "units": "1",
+            "value": 0.2,
+            "warnings": [
+              "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã."
+            ]
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "surfability_version": "manual_surf_assessment_v0.2",
+          "surfline_input_grade": null,
+          "surfline_like_rating": {
+            "label": "poor",
+            "ordinal": 2,
+            "origin": "internal_ordinal_label_not_a_surfline_input",
+            "status": "smoke_test_only"
+          },
+          "surfline_used": false,
+          "used_offshore_height_as_nearshore_fallback": false,
+          "visual_available": false,
+          "warnings": [
+            "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+            "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente."
+          ]
+        },
+        "duration_hours": 0.0,
+        "end": "2026-10-10T10:00:00-03:00",
+        "gates": {},
+        "missing_inputs": [
+          "tide_quality"
+        ],
+        "regime": {
+          "environmental_policy": "conservative_lower_bound",
+          "quality_bands": {
+            "rain_quality": 2,
+            "sky_quality": 2
+          },
+          "surfability_mode": "manual_authorized_assessment",
+          "surfability_source": "user_reported_surfconnect",
+          "tide_phase": "rising",
+          "wind_direction_deg": 193.0,
+          "wind_speed_knots": 3.0
+        },
+        "score": 1.6,
+        "scoring_version": "surf_v0.5",
+        "spot": "praia_do_diabo",
+        "status": "ok",
+        "timestamp": "2026-10-10T10:00:00-03:00",
+        "warnings": [
+          "Maré sem calibração: nota usa limite inferior conservador; tide_quality ausente.",
+          "Nota atual corrigida por relato autorizado; não é média diária nem previsão de amanhã.",
+          "SST prevista por modelo; não é medição de praia",
+          "Surfabilidade informada manualmente pelo usuário; não coletada via API.",
+          "model_init_unavailable; age_hours measures time since fetch"
+        ]
+      }
+    ],
+    "daily_scientific_products_modified": false
+  }
 }
