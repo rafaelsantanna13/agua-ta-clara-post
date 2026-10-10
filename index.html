@@ -48,18 +48,24 @@ const files=[['01_surf.png','SURF'],['02_natacao_mergulho.png','NATAÇÃO & MERG
     const nonce=Date.now();
     const m=await (await fetch('run.json?'+nonce,{cache:'no-store'})).json();
     status.textContent='Última rodada: '+m.target_date+' · '+m.kind;
+    // Manual Surfconnect corrections can regenerate media from the same scientific
+    // morning run. Use the correction id as cache key so browsers/CDNs do not keep
+    // serving the pre-correction PNG/MP4 under the unchanged baseline run_id.
+    const assetVersion=(m.publication_view&&m.publication_view.correction_run_id)
+      ? m.publication_view.correction_run_id
+      : m.run_id;
 
     for(const [f,l] of files){
       const d=document.createElement('div');
       d.className='box';
-      d.innerHTML='<h2>'+l+'</h2><img src="'+f+'?v='+encodeURIComponent(m.run_id)+'"><a class="btn" href="'+f+'?v='+encodeURIComponent(m.run_id)+'" download="'+f+'">BAIXAR '+l+'</a>';
+      d.innerHTML='<h2>'+l+'</h2><img src="'+f+'?v='+encodeURIComponent(assetVersion)+'"><a class="btn" href="'+f+'?v='+encodeURIComponent(assetVersion)+'" download="'+f+'">BAIXAR '+l+'</a>';
       cards.appendChild(d);
     }
 
-    caption.value=await (await fetch('caption.txt?v='+encodeURIComponent(m.run_id),{cache:'no-store'})).text();
+    caption.value=await (await fetch('caption.txt?v='+encodeURIComponent(assetVersion),{cache:'no-store'})).text();
 
-    const s=await (await fetch('reel_script.json?v='+encodeURIComponent(m.run_id),{cache:'no-store'})).json();
-    const reelUrl='reel.mp4?v='+encodeURIComponent(m.run_id);
+    const s=await (await fetch('reel_script.json?v='+encodeURIComponent(assetVersion),{cache:'no-store'})).json();
+    const reelUrl='reel.mp4?v='+encodeURIComponent(assetVersion);
     reelVideo.src=reelUrl;
     reelDownload.href=reelUrl;
     reelDownload.textContent='BAIXAR REEL '+s.duration_seconds+'s';
