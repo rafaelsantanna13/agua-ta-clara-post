@@ -1,8 +1,8 @@
 {
   "editorial_version": "3.2",
   "hook_type": "best_score",
-  "headline": "NATAÇÃO · Praia do Flamengo · 8,6",
-  "cta_type": "comment_share",
+  "headline": "NATAÇÃO · Praia do Flamengo · 9,1",
+  "cta_type": "save",
   "reel_duration": 10,
   "reel_motion_style": "caribbean_mask_slide_v1",
   "card_activity_icons": "tabler_svg_v1",
@@ -18,18 +18,26 @@
   "mascot_candidates": [
     {
       "family": "swimming",
-      "score": 8.55
+      "score": 9.12
+    },
+    {
+      "family": "paddling",
+      "score": 8.9
+    },
+    {
+      "family": "diving",
+      "score": 8.61
     }
   ],
   "reel_reaction_activity": "swimming",
-  "reel_reaction": "Piscina sem azulejo. E com personalidade.",
-  "reel_reaction_index": 5,
+  "reel_reaction": "Zé já separou a touca e os óculos.",
+  "reel_reaction_index": 7,
   "reel_reaction_mode": "deterministic_rotation",
   "promise": "Condições às 6h · previsão de amanhã às 17h",
   "card_headlines": {
-    "surf": "Arpoador é a melhor aposta.",
-    "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,6",
-    "paddling": "Dia bom para remar: P6 · 7,6"
+    "surf": "Surf fraco em todo canto.",
+    "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 9,1",
+    "paddling": "Dia bom para remar: P6 · 8,9"
   },
   "mascot_reaction": "Zé separou o kit de natação."
 }
