@@ -19,9 +19,9 @@
     "reel_background_source_crop": "top_360px_removed_before_packaging",
     "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
     "mascot_use": "activity_asset_after_data",
-    "mascot_activity_selected": "paddling",
-    "mascot_asset_selected": "assets/ze-marola-paddling.webp",
-    "mascot_selection_reason": "near_tie_rotation",
+    "mascot_activity_selected": "swimming",
+    "mascot_asset_selected": "assets/ze-marola-swimming.webp",
+    "mascot_selection_reason": "top_score",
     "mascot_candidates": [
       {
         "family": "swimming",
@@ -29,19 +29,19 @@
       },
       {
         "family": "paddling",
-        "score": 8.93
+        "score": 8.95
       },
       {
         "family": "diving",
-        "score": 8.61
+        "score": 8.7
       }
     ],
     "reel_mascot_activity_selected": "swimming",
     "reel_mascot_asset_selected": "assets/ze-marola-swimming.webp",
     "reel_mascot_selection_reason": "best_score",
     "reel_reaction_activity": "swimming",
-    "reel_reaction": "Dá pra nadar e fingir disciplina.",
-    "reel_reaction_index": 2,
+    "reel_reaction": "Condição boa pra nadar. Desculpa ruim pra faltar.",
+    "reel_reaction_index": 6,
     "reel_reaction_mode": "deterministic_rotation",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
@@ -49,7 +49,7 @@
       "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 9,1",
       "paddling": "Dia bom para remar: P6 · 8,9"
     },
-    "mascot_reaction": "Zé já separou o remo."
+    "mascot_reaction": "Zé separou o kit de natação."
   },
   "scenes": [
     {
@@ -63,8 +63,8 @@
       "start": 3,
       "end": 6,
       "role": "mascot_reaction",
-      "text": "Dá pra nadar e fingir disciplina.",
-      "speech": "Dá pra nadar e fingir disciplina."
+      "text": "Condição boa pra nadar. Desculpa ruim pra faltar.",
+      "speech": "Condição boa pra nadar. Desculpa ruim pra faltar."
     },
     {
       "start": 6,

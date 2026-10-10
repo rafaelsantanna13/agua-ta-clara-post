@@ -8,15 +8,15 @@ Arpoador 2,6 · P5 2,3 · Ipanema 2,0 · Praia do Diabo 2,7
 Copacabana 8,3 · Praia do Flamengo 9,1 · Ipanema 8,0 · Praia Vermelha 9,1
 
 🤿 MERGULHO · estimativa ambiental · conf. baixa
-Arpoador 8,6 · P6 7,3 · Leme 7,3 · Praia Vermelha 7,6
+Arpoador 8,7 · P6 7,4 · Leme 7,4 · Praia Vermelha 7,6
 
 🏄‍♀️ SUP · conf. baixa
-P5/P6 7,5 · Praia Vermelha 6,0
+P5/P6 6,9 · Praia Vermelha 6,0
 
 🛶 CANOA · conf. baixa
 P6 8,9 · Praia Vermelha 8,9
 
-⚠️ 🏄‍♀️ SUP · P5/P6: vento terral forte; ondas acima do limite de referência
+⚠️ 🏄‍♀️ SUP · P5/P6: ondas acima do limite de referência; vento terral forte
 ⚠️ 🏄‍♀️ SUP · Praia Vermelha: ondas acima do limite de referência; rajadas fortes
 
 💾 Salva para conferir amanhã cedo.
