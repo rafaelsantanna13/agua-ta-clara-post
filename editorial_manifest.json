@@ -22,14 +22,14 @@
     }
   ],
   "reel_reaction_activity": "swimming",
-  "reel_reaction": "Água convidativa. O despertador, nem tanto.",
-  "reel_reaction_index": 0,
+  "reel_reaction": "Condição boa pra nadar. Desculpa ruim pra faltar.",
+  "reel_reaction_index": 6,
   "reel_reaction_mode": "deterministic_rotation",
   "promise": "Condições às 6h · previsão de amanhã às 17h",
   "card_headlines": {
-    "surf": "Arpoador é a melhor aposta.",
+    "surf": "P5 é a melhor aposta.",
     "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,6",
-    "paddling": "Dia bom para remar: P6 · 7,7"
+    "paddling": "Dia bom para remar: P6 · 7,6"
   },
   "mascot_reaction": "Zé separou o kit de natação."
 }
