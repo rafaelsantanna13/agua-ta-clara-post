@@ -19,9 +19,9 @@
     "reel_background_source_crop": "top_360px_removed_before_packaging",
     "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
     "mascot_use": "activity_asset_after_data",
-    "mascot_activity_selected": "swimming",
-    "mascot_asset_selected": "assets/ze-marola-swimming.webp",
-    "mascot_selection_reason": "top_score",
+    "mascot_activity_selected": "paddling",
+    "mascot_asset_selected": "assets/ze-marola-paddling.webp",
+    "mascot_selection_reason": "near_tie_rotation",
     "mascot_candidates": [
       {
         "family": "swimming",
@@ -29,7 +29,7 @@
       },
       {
         "family": "paddling",
-        "score": 8.9
+        "score": 8.93
       },
       {
         "family": "diving",
@@ -49,7 +49,7 @@
       "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 9,1",
       "paddling": "Dia bom para remar: P6 · 8,9"
     },
-    "mascot_reaction": "Zé separou o kit de natação."
+    "mascot_reaction": "Zé já separou o remo."
   },
   "scenes": [
     {
