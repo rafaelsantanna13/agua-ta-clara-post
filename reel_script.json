@@ -5,15 +5,15 @@
   "duration_seconds": 10,
   "format": "1080x1920",
   "editorial": {
-    "editorial_version": "3.0",
+    "editorial_version": "3.1",
     "hook_type": "best_score",
     "headline": "NATAÇÃO · Praia do Flamengo · 8,6",
     "cta_type": "comment_share",
     "reel_duration": 10,
     "reel_motion_style": "caribbean_mask_slide_v1",
-    "card_activity_icons": "line_icons_v2_170pct",
+    "card_activity_icons": "tabler_svg_v1",
     "reel_background": "procedural_crystal_water_only_v1",
-    "reel_brand_mask": "agua_ta_clara_vertical_mask_v1",
+    "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
     "mascot_use": "activity_asset_after_data",
     "mascot_activity_selected": "swimming",
     "mascot_asset_selected": "assets/ze-marola-swimming.webp",
@@ -24,13 +24,17 @@
         "score": 8.55
       }
     ],
+    "reel_reaction_activity": "swimming",
+    "reel_reaction": "Água convidativa. O despertador, nem tanto.",
+    "reel_reaction_index": 0,
+    "reel_reaction_mode": "deterministic_rotation",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
-      "surf": "Surf sem grande destaque.",
+      "surf": "P5 é a melhor aposta.",
       "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,6",
       "paddling": "Dia bom para remar: P6 · 7,7"
     },
-    "mascot_reaction": "Zé já separou a touca e os óculos."
+    "mascot_reaction": "Zé separou o kit de natação."
   },
   "scenes": [
     {
@@ -44,8 +48,8 @@
       "start": 3,
       "end": 6,
       "role": "mascot_reaction",
-      "text": "Zé já separou a touca e os óculos.",
-      "speech": "Zé já separou a touca e os óculos."
+      "text": "Água convidativa. O despertador, nem tanto.",
+      "speech": "Água convidativa. O despertador, nem tanto."
     },
     {
       "start": 6,
