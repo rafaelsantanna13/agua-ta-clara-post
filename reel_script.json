@@ -5,26 +5,53 @@
   "duration_seconds": 10,
   "format": "1080x1920",
   "editorial": {
-    "editorial_version": "3.4",
-    "hook_type": "best_score",
-    "reel_feature_activity": "swimming",
-    "headline": "NATAÇÃO · Praia do Flamengo · 8,7",
+    "editorial_version": "4.0",
+    "hook_type": "model_alert",
+    "reel_feature_activity": "sup",
+    "headline": "SUP · P5/P6: ALERTA DO MODELO",
     "cta_type": "save",
+    "cta_text": "Salve para conferir amanhã cedo.",
+    "date_label": "Seg 12/10",
+    "reel_context": {
+      "alerts": [
+        "vento terral forte",
+        "ondas acima do limite estimado"
+      ],
+      "has_alert": true,
+      "reason": "vento terral forte · ondas estimadas altas",
+      "window": null,
+      "period": "Período com alerta · confira antes de sair",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "confidence": "baixa",
+      "score_scope": "média diurna",
+      "visibility_estimated": false
+    },
+    "reel_tied_spots": [],
+    "selection_policy": "alerts_then_display_ties_then_score_v4",
+    "experiment_id": "editorial_v4_utility_first",
+    "experiment_variables": [
+      "first_frame_data",
+      "context_and_period",
+      "integrated_mascot",
+      "single_cta"
+    ],
     "reel_duration": 10,
-    "reel_motion_style": "caribbean_mask_slide_v1",
+    "reel_motion_style": "first_frame_data_context_v4",
     "card_activity_icons": "tabler_svg_v1",
     "reel_background": "activity_video_library_v1",
     "reel_background_selection": {
       "version": "activity_video_library_v1",
       "status": "selected_activity_clip",
-      "activity": "swimming",
-      "folder": "natacao",
-      "path": "assets/reel_videos/natacao/VID_20261011_064005_481.mp4",
-      "clip_sha256": "4b29f32730b47b396f8a023c10b1434750afcce7f9aeaaed388ef184f57eeed3",
-      "candidate_count": 2,
+      "activity": "sup",
+      "folder": "remo",
+      "path": "assets/reel_videos/remo/VID_20261010_144229.mp4",
+      "clip_sha256": "5bb3aa5b414b9589b68943c601c5e4eb1ce757922ee4892a6c070d7ac2abbf86",
+      "candidate_count": 1,
       "matches_featured_activity": true,
+      "public_label": "Imagem ilustrativa",
+      "location_date_verified": false,
       "probe": {
-        "duration_seconds": 10.1,
+        "duration_seconds": 11.68,
         "width": 1080,
         "height": 1920
       },
@@ -34,60 +61,123 @@
     "reel_background_tomorrow": "assets/reel_bg_tomorrow.mp4",
     "reel_background_source_crop": "activity_clips_use_original_framing_legacy_clips_prepared",
     "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
-    "mascot_use": "activity_asset_after_data",
-    "mascot_activity_selected": "swimming",
-    "mascot_asset_selected": "assets/ze-marola-swimming.webp",
-    "mascot_selection_reason": "top_score",
+    "mascot_use": "small_reaction_with_context",
+    "mascot_activity_selected": "paddling",
+    "mascot_asset_selected": "assets/ze-marola-paddling.webp",
+    "mascot_selection_reason": "model_alert",
     "mascot_candidates": [
       {
-        "family": "swimming",
-        "score": 8.65
-      },
-      {
         "family": "paddling",
-        "score": 8.56
-      },
-      {
-        "family": "diving",
-        "score": 8.46
+        "score": 7.28
       }
     ],
-    "reel_mascot_activity_selected": "swimming",
-    "reel_mascot_asset_selected": "assets/ze-marola-swimming.webp",
-    "reel_mascot_selection_reason": "best_score",
-    "reel_reaction_activity": "swimming",
-    "reel_reaction": "Piscina sem azulejo. E com personalidade.",
-    "reel_reaction_index": 5,
-    "reel_reaction_mode": "deterministic_rotation",
+    "reel_mascot_activity_selected": "paddling",
+    "reel_mascot_asset_selected": "assets/ze-marola-paddling.webp",
+    "reel_mascot_selection_reason": "model_alert",
+    "reel_reaction_activity": "sup",
+    "reel_reaction": "Zé não negocia com alerta.",
+    "reel_reaction_index": null,
+    "reel_reaction_mode": "safety_override",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
-      "surf": "Surf fraco em todo canto.",
-      "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,7",
-      "paddling": "Dia bom para remar: P6 · 8,6"
+      "surf": "Surf fraco · confira a formação e os períodos",
+      "water": "Natação: Flamengo e Praia Vermelha · INEA não verificado",
+      "paddling": "SUP · alertas no período; confira as condições"
     },
-    "mascot_reaction": "Zé separou o kit de natação."
+    "mascot_reaction": "Zé não negocia com alerta."
   },
   "scenes": [
     {
       "start": 0,
       "end": 3,
       "role": "data_hook",
-      "text": "NATAÇÃO · Praia do Flamengo · 8,7",
-      "speech": "NATAÇÃO em Praia do Flamengo. Nota 8,7."
+      "text": "SUP · P5/P6: ALERTA DO MODELO",
+      "speech": "Sup: alerta no modelo.",
+      "detail": "A nota não anula o alerta",
+      "headline": "SUP · P5/P6: ALERTA DO MODELO",
+      "hook_type": "model_alert",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "confidence": "baixa"
     },
     {
       "start": 3,
       "end": 6,
-      "role": "mascot_reaction",
-      "text": "Piscina sem azulejo. E com personalidade.",
-      "speech": "Piscina sem azulejo. E com personalidade."
+      "role": "context",
+      "text": "vento terral forte · ondas estimadas altas",
+      "speech": "Atenção às condições.",
+      "detail": "vento terral forte · ondas estimadas altas",
+      "headline": "SUP · P5/P6: ALERTA DO MODELO",
+      "hook_type": "model_alert",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "confidence": "baixa"
     },
     {
       "start": 6,
+      "end": 8,
+      "role": "window_caution",
+      "text": "Período com alerta · confira antes de sair · ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "speech": "Confirme no local.",
+      "detail": "Período com alerta · confira antes de sair",
+      "headline": "SUP · P5/P6: ALERTA DO MODELO",
+      "hook_type": "model_alert",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "confidence": "baixa"
+    },
+    {
+      "start": 8,
       "end": 10,
       "role": "cta",
-      "text": "Detalhes na legenda ou no perfil.",
-      "speech": "Veja mais detalhes na legenda ou no perfil."
+      "text": "Salve para conferir amanhã cedo.",
+      "speech": "Salve para amanhã.",
+      "detail": "Zé não negocia com alerta.",
+      "headline": "SUP · P5/P6: ALERTA DO MODELO",
+      "hook_type": "model_alert",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+      "confidence": "baixa"
     }
-  ]
+  ],
+  "date_label": "Seg 12/10",
+  "period_label": "PREVISÃO · Seg 12/10",
+  "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+  "confidence": "baixa",
+  "footage_label": "Imagem ilustrativa",
+  "audio": {
+    "voice_used": "pt_BR-jeff-medium",
+    "max_tempo": 1.15,
+    "scenes": [
+      {
+        "scene": 1,
+        "role": "data_hook",
+        "source_seconds": 2.438,
+        "natural_seconds": 1.643,
+        "slot_seconds": 3.0,
+        "tempo": 1.0
+      },
+      {
+        "scene": 2,
+        "role": "context",
+        "source_seconds": 2.415,
+        "natural_seconds": 1.365,
+        "slot_seconds": 3.0,
+        "tempo": 1.0
+      },
+      {
+        "scene": 3,
+        "role": "window_caution",
+        "source_seconds": 1.985,
+        "natural_seconds": 1.097,
+        "slot_seconds": 2.0,
+        "tempo": 1.0
+      },
+      {
+        "scene": 4,
+        "role": "cta",
+        "source_seconds": 1.881,
+        "natural_seconds": 0.993,
+        "slot_seconds": 2.0,
+        "tempo": 1.0
+      }
+    ]
+  },
+  "voice_used": "pt_BR-jeff-medium"
 }
