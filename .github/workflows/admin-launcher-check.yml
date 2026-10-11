@@ -1,0 +1,20 @@
+name: Protected update links
+on:
+  push:
+    paths:
+      - index.html
+      - admin-config.json
+      - admin-launcher.js
+      - tests/admin-launcher.test.mjs
+      - .github/workflows/admin-launcher-check.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test URL validation, persistence and GitHub fallback
+        run: node tests/admin-launcher.test.mjs
