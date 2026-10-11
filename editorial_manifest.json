@@ -2,8 +2,8 @@
   "editorial_version": "3.4",
   "hook_type": "best_score",
   "reel_feature_activity": "canoe",
-  "headline": "CANOA · P6 · 8,6",
-  "cta_type": "save",
+  "headline": "CANOA · Praia Vermelha · 8,8",
+  "cta_type": "comment_share",
   "reel_duration": 10,
   "reel_motion_style": "caribbean_mask_slide_v1",
   "card_activity_icons": "tabler_svg_v1",
@@ -35,29 +35,29 @@
   "mascot_candidates": [
     {
       "family": "paddling",
-      "score": 8.63
+      "score": 8.84
     },
     {
       "family": "swimming",
-      "score": 8.58
+      "score": 8.68
     },
     {
       "family": "diving",
-      "score": 8.33
+      "score": 8.44
     }
   ],
   "reel_mascot_activity_selected": "paddling",
   "reel_mascot_asset_selected": "assets/ze-marola-paddling.webp",
   "reel_mascot_selection_reason": "best_score",
   "reel_reaction_activity": "canoe",
-  "reel_reaction": "Zé levou o remo. O resto é geometria.",
-  "reel_reaction_index": 1,
+  "reel_reaction": "Mar colaborando. Não cria precedente.",
+  "reel_reaction_index": 7,
   "reel_reaction_mode": "deterministic_rotation",
   "promise": "Condições às 6h · previsão de amanhã às 17h",
   "card_headlines": {
     "surf": "Surf fraco em todo canto.",
-    "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,6",
-    "paddling": "Dia bom para remar: P6 · 8,6"
+    "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,7",
+    "paddling": "Dia bom para remar: Praia Vermelha · 8,8"
   },
   "mascot_reaction": "Zé já separou o remo."
 }
