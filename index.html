@@ -13,7 +13,17 @@ h1{margin-bottom:2px}.sub{margin-top:0;color:#587078}
 .secondary{background:#174b59}.refresh{background:#56686d}
 textarea{width:100%;box-sizing:border-box;min-height:180px;padding:10px;font-size:15px}
 #status{font-weight:600}
+.admin-status{font-size:13px;line-height:1.5;padding:9px 0;color:#52686c}
+.admin-status.ready{color:#087451;font-weight:700}
+.admin-status.warning{color:#a24825}
+details{margin-top:14px;border-top:1px solid #d9e2e2;padding-top:12px}
+details summary{cursor:pointer;font-size:14px;font-weight:700;color:#174b59}
+details p{font-size:13px;color:#52686c;line-height:1.5}
+details input{display:block;width:100%;box-sizing:border-box;padding:11px;border:1px solid #b5c4c4;border-radius:8px;font-size:15px;margin-top:8px}
+details .btn{font-size:14px}
+
 </style>
+<script defer src="admin-launcher.js?v=1"></script>
 </head>
 <body>
 <h1>ÁGUA TÁ CLARA</h1>
@@ -22,8 +32,20 @@ textarea{width:100%;box-sizing:border-box;min-height:180px;padding:10px;font-siz
 <div class="box">
   <div id="status">Carregando última previsão…</div>
   <button class="refresh" onclick="location.href=location.pathname+'?v='+Date.now()">↻ RECARREGAR CARDS</button>
-  <a class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-morning-nowcast.yml" target="_blank">☀ ATUALIZAR CONDIÇÕES DE HOJE</a>
-  <a class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-tomorrow-forecast.yml" target="_blank">🌊 GERAR PREVISÃO DE AMANHÃ</a>
+  <div id="adminMode" class="admin-status pending" aria-live="polite">Verificando acesso direto protegido…</div>
+  <a id="updateToday" class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-morning-nowcast.yml" target="_blank" rel="noopener noreferrer">☀ ATUALIZAR CONDIÇÕES DE HOJE</a>
+  <a id="updateTomorrow" class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-tomorrow-forecast.yml" target="_blank" rel="noopener noreferrer">🌊 GERAR PREVISÃO DE AMANHÃ</a>
+  <details id="adminSetup">
+    <summary>Configurar acesso direto / abrir GitHub manualmente</summary>
+    <p>Depois de proteger seu Cloudflare Worker com Access, cole aqui somente o endereço público do Worker. <strong>Nunca coloque tokens ou senhas.</strong> Essa configuração fica salva apenas neste navegador.</p>
+    <label for="workerUrl">Endereço do Worker protegido</label>
+    <input id="workerUrl" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://agua-ta-clara-admin.seu-nome.workers.dev/">
+    <button id="saveWorkerUrl" type="button">SALVAR ENDEREÇO DO WORKER</button>
+    <div id="workerSaveResult" class="admin-status" aria-live="polite"></div>
+    <p>Se ainda não criou o Worker, consulte o <a href="https://github.com/rafaelsantanna13/agua-ta-clara/blob/main/integrations/cloudflare/README.md" target="_blank" rel="noopener noreferrer">passo a passo de configuração</a>.</p>
+    <a class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-morning-nowcast.yml" target="_blank" rel="noopener noreferrer">ABRIR GITHUB · HOJE</a>
+    <a class="btn secondary" href="https://github.com/rafaelsantanna13/agua-ta-clara/actions/workflows/daily-tomorrow-forecast.yml" target="_blank" rel="noopener noreferrer">ABRIR GITHUB · AMANHÃ</a>
+  </details>
 </div>
 
 <div id="cards"></div>
