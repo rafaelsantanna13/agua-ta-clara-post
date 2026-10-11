@@ -7,9 +7,9 @@
   "editorial": {
     "editorial_version": "3.4",
     "hook_type": "best_score",
-    "reel_feature_activity": "canoe",
-    "headline": "CANOA · Praia Vermelha · 8,8",
-    "cta_type": "comment_share",
+    "reel_feature_activity": "swimming",
+    "headline": "NATAÇÃO · Praia do Flamengo · 8,7",
+    "cta_type": "save",
     "reel_duration": 10,
     "reel_motion_style": "caribbean_mask_slide_v1",
     "card_activity_icons": "tabler_svg_v1",
@@ -17,14 +17,14 @@
     "reel_background_selection": {
       "version": "activity_video_library_v1",
       "status": "selected_activity_clip",
-      "activity": "canoe",
-      "folder": "remo",
-      "path": "assets/reel_videos/remo/VID_20261010_144229.mp4",
-      "clip_sha256": "5bb3aa5b414b9589b68943c601c5e4eb1ce757922ee4892a6c070d7ac2abbf86",
-      "candidate_count": 1,
+      "activity": "swimming",
+      "folder": "natacao",
+      "path": "assets/reel_videos/natacao/VID_20261011_064005_481.mp4",
+      "clip_sha256": "4b29f32730b47b396f8a023c10b1434750afcce7f9aeaaed388ef184f57eeed3",
+      "candidate_count": 2,
       "matches_featured_activity": true,
       "probe": {
-        "duration_seconds": 11.68,
+        "duration_seconds": 10.1,
         "width": 1080,
         "height": 1920
       },
@@ -35,52 +35,52 @@
     "reel_background_source_crop": "activity_clips_use_original_framing_legacy_clips_prepared",
     "reel_brand_mask": "agua_ta_clara_vertical_mask_v2_svg",
     "mascot_use": "activity_asset_after_data",
-    "mascot_activity_selected": "paddling",
-    "mascot_asset_selected": "assets/ze-marola-paddling.webp",
+    "mascot_activity_selected": "swimming",
+    "mascot_asset_selected": "assets/ze-marola-swimming.webp",
     "mascot_selection_reason": "top_score",
     "mascot_candidates": [
       {
-        "family": "paddling",
-        "score": 8.84
+        "family": "swimming",
+        "score": 8.65
       },
       {
-        "family": "swimming",
-        "score": 8.68
+        "family": "paddling",
+        "score": 8.56
       },
       {
         "family": "diving",
-        "score": 8.44
+        "score": 8.46
       }
     ],
-    "reel_mascot_activity_selected": "paddling",
-    "reel_mascot_asset_selected": "assets/ze-marola-paddling.webp",
+    "reel_mascot_activity_selected": "swimming",
+    "reel_mascot_asset_selected": "assets/ze-marola-swimming.webp",
     "reel_mascot_selection_reason": "best_score",
-    "reel_reaction_activity": "canoe",
-    "reel_reaction": "Zé já remou pior por menos.",
-    "reel_reaction_index": 4,
+    "reel_reaction_activity": "swimming",
+    "reel_reaction": "Piscina sem azulejo. E com personalidade.",
+    "reel_reaction_index": 5,
     "reel_reaction_mode": "deterministic_rotation",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
       "surf": "Surf fraco em todo canto.",
       "water": "Melhor aposta: NATAÇÃO em Praia do Flamengo · 8,7",
-      "paddling": "Dia bom para remar: Praia Vermelha · 8,8"
+      "paddling": "Dia bom para remar: P6 · 8,6"
     },
-    "mascot_reaction": "Zé já separou o remo."
+    "mascot_reaction": "Zé separou o kit de natação."
   },
   "scenes": [
     {
       "start": 0,
       "end": 3,
       "role": "data_hook",
-      "text": "CANOA · Praia Vermelha · 8,8",
-      "speech": "CANOA em Praia Vermelha. Nota 8,8."
+      "text": "NATAÇÃO · Praia do Flamengo · 8,7",
+      "speech": "NATAÇÃO em Praia do Flamengo. Nota 8,7."
     },
     {
       "start": 3,
       "end": 6,
       "role": "mascot_reaction",
-      "text": "Zé já remou pior por menos.",
-      "speech": "Zé já remou pior por menos."
+      "text": "Piscina sem azulejo. E com personalidade.",
+      "speech": "Piscina sem azulejo. E com personalidade."
     },
     {
       "start": 6,
