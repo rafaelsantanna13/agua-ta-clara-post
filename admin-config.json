@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "worker_url": null,
+  "notes": "Configure a URL do Cloudflare Worker protegido. Nunca coloque tokens ou segredos aqui."
+}
