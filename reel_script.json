@@ -68,7 +68,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 7.28
+        "score": 7.25
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -148,32 +148,32 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 2.438,
-        "natural_seconds": 1.643,
+        "source_seconds": 2.392,
+        "natural_seconds": 1.63,
         "slot_seconds": 3.0,
         "tempo": 1.0
       },
       {
         "scene": 2,
         "role": "context",
-        "source_seconds": 2.415,
-        "natural_seconds": 1.365,
+        "source_seconds": 2.624,
+        "natural_seconds": 1.401,
         "slot_seconds": 3.0,
         "tempo": 1.0
       },
       {
         "scene": 3,
         "role": "window_caution",
-        "source_seconds": 1.985,
-        "natural_seconds": 1.097,
+        "source_seconds": 1.95,
+        "natural_seconds": 1.034,
         "slot_seconds": 2.0,
         "tempo": 1.0
       },
       {
         "scene": 4,
         "role": "cta",
-        "source_seconds": 1.881,
-        "natural_seconds": 0.993,
+        "source_seconds": 1.869,
+        "natural_seconds": 0.973,
         "slot_seconds": 2.0,
         "tempo": 1.0
       }
