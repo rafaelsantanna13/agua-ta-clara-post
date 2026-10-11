@@ -56,8 +56,8 @@
     "reel_mascot_asset_selected": "assets/ze-marola-paddling.webp",
     "reel_mascot_selection_reason": "best_score",
     "reel_reaction_activity": "canoe",
-    "reel_reaction": "Mar colaborando. Não cria precedente.",
-    "reel_reaction_index": 7,
+    "reel_reaction": "Zé já remou pior por menos.",
+    "reel_reaction_index": 4,
     "reel_reaction_mode": "deterministic_rotation",
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
@@ -79,8 +79,8 @@
       "start": 3,
       "end": 6,
       "role": "mascot_reaction",
-      "text": "Mar colaborando. Não cria precedente.",
-      "speech": "Mar colaborando. Não cria precedente."
+      "text": "Zé já remou pior por menos.",
+      "speech": "Zé já remou pior por menos."
     },
     {
       "start": 6,
