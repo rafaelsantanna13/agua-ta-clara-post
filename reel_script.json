@@ -222,8 +222,8 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 7.349,
-        "natural_seconds": 6.505,
+        "source_seconds": 7.593,
+        "natural_seconds": 6.719,
         "slot_seconds": 10.0,
         "tempo": 1.0
       }
