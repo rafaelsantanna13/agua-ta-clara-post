@@ -4,27 +4,15 @@
   "reel_feature_activity": "sup",
   "headline": "SUP · P5/P6: ALERTA DO MODELO",
   "reel_headline": "MELHORES NOTAS",
-  "reel_speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
+  "reel_speech": "Natação oito vírgula cinco; Canoa oito vírgula cinco; Mergulho oito vírgula dois; Sup sete vírgula dois.",
   "reel_call_type": "activity_best_scores",
   "reel_minimum_score": 6.0,
   "reel_score_highlights": [
     {
-      "activity": "canoe",
-      "label": "CANOA",
-      "score": 8.62,
-      "score_text": "8,6/10",
-      "spots": [
-        "praia_vermelha"
-      ],
-      "spot_label": "Praia Vermelha",
-      "qualifiers": [],
-      "has_alert": false
-    },
-    {
       "activity": "swimming",
       "label": "NATAÇÃO",
-      "score": 8.56,
-      "score_text": "8,6/10",
+      "score": 8.53,
+      "score_text": "8,5/10",
       "spots": [
         "flamengo",
         "praia_vermelha"
@@ -36,10 +24,22 @@
       "has_alert": false
     },
     {
+      "activity": "canoe",
+      "label": "CANOA",
+      "score": 8.53,
+      "score_text": "8,5/10",
+      "spots": [
+        "copacabana_p6"
+      ],
+      "spot_label": "P6",
+      "qualifiers": [],
+      "has_alert": false
+    },
+    {
       "activity": "diving",
       "label": "MERGULHO",
-      "score": 8.04,
-      "score_text": "8,0/10",
+      "score": 8.24,
+      "score_text": "8,2/10",
       "spots": [
         "arpoador"
       ],
@@ -53,7 +53,7 @@
     {
       "activity": "sup",
       "label": "SUP",
-      "score": 7.17,
+      "score": 7.24,
       "score_text": "7,2/10",
       "spots": [
         "copacabana_p5",
@@ -66,8 +66,8 @@
       "has_alert": true
     }
   ],
-  "cta_type": "save",
-  "cta_text": "Salve para conferir amanhã cedo.",
+  "cta_type": "comment_observation",
+  "cta_text": "Conte o pico + horário + condição.",
   "date_label": "Seg 12/10",
   "reel_context": {
     "alerts": [
@@ -125,7 +125,7 @@
   "mascot_candidates": [
     {
       "family": "paddling",
-      "score": 7.17
+      "score": 7.24
     }
   ],
   "reel_mascot_activity_selected": "paddling",

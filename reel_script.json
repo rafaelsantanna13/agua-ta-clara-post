@@ -10,27 +10,15 @@
     "reel_feature_activity": "sup",
     "headline": "SUP · P5/P6: ALERTA DO MODELO",
     "reel_headline": "MELHORES NOTAS",
-    "reel_speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
+    "reel_speech": "Natação oito vírgula cinco; Canoa oito vírgula cinco; Mergulho oito vírgula dois; Sup sete vírgula dois.",
     "reel_call_type": "activity_best_scores",
     "reel_minimum_score": 6.0,
     "reel_score_highlights": [
       {
-        "activity": "canoe",
-        "label": "CANOA",
-        "score": 8.62,
-        "score_text": "8,6/10",
-        "spots": [
-          "praia_vermelha"
-        ],
-        "spot_label": "Praia Vermelha",
-        "qualifiers": [],
-        "has_alert": false
-      },
-      {
         "activity": "swimming",
         "label": "NATAÇÃO",
-        "score": 8.56,
-        "score_text": "8,6/10",
+        "score": 8.53,
+        "score_text": "8,5/10",
         "spots": [
           "flamengo",
           "praia_vermelha"
@@ -42,10 +30,22 @@
         "has_alert": false
       },
       {
+        "activity": "canoe",
+        "label": "CANOA",
+        "score": 8.53,
+        "score_text": "8,5/10",
+        "spots": [
+          "copacabana_p6"
+        ],
+        "spot_label": "P6",
+        "qualifiers": [],
+        "has_alert": false
+      },
+      {
         "activity": "diving",
         "label": "MERGULHO",
-        "score": 8.04,
-        "score_text": "8,0/10",
+        "score": 8.24,
+        "score_text": "8,2/10",
         "spots": [
           "arpoador"
         ],
@@ -59,7 +59,7 @@
       {
         "activity": "sup",
         "label": "SUP",
-        "score": 7.17,
+        "score": 7.24,
         "score_text": "7,2/10",
         "spots": [
           "copacabana_p5",
@@ -72,8 +72,8 @@
         "has_alert": true
       }
     ],
-    "cta_type": "save",
-    "cta_text": "Salve para conferir amanhã cedo.",
+    "cta_type": "comment_observation",
+    "cta_text": "Conte o pico + horário + condição.",
     "date_label": "Seg 12/10",
     "reel_context": {
       "alerts": [
@@ -131,7 +131,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 7.17
+        "score": 7.24
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -152,145 +152,57 @@
   "scenes": [
     {
       "start": 0,
-      "end": 8,
+      "end": 10,
       "role": "data_hook",
       "text": "MELHORES NOTAS",
-      "speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
-      "detail": "A nota não anula o alerta · confira os cards",
+      "speech": "Natação oito vírgula cinco; Canoa oito vírgula cinco; Mergulho oito vírgula dois; Sup sete vírgula dois.",
+      "detail": "",
       "headline": "MELHORES NOTAS",
       "hook_type": "activity_best_scores",
       "score_highlights": [
         {
-          "activity": "canoe",
-          "label": "CANOA",
-          "score": 8.62,
-          "score_text": "8,6/10",
-          "spots": [
-            "praia_vermelha"
-          ],
-          "spot_label": "Praia Vermelha",
-          "qualifiers": [],
-          "has_alert": false
-        },
-        {
           "activity": "swimming",
           "label": "NATAÇÃO",
-          "score": 8.56,
-          "score_text": "8,6/10",
+          "score": 8.53,
+          "score_text": "8,5/10",
           "spots": [
             "flamengo",
             "praia_vermelha"
           ],
-          "spot_label": "Praia do Flamengo / Praia Vermelha",
-          "qualifiers": [
-            "INEA não verificado"
+          "spot_label": "Praia do Flamengo / Praia Vermelha"
+        },
+        {
+          "activity": "canoe",
+          "label": "CANOA",
+          "score": 8.53,
+          "score_text": "8,5/10",
+          "spots": [
+            "copacabana_p6"
           ],
-          "has_alert": false
+          "spot_label": "Copacabana"
         },
         {
           "activity": "diving",
           "label": "MERGULHO",
-          "score": 8.04,
-          "score_text": "8,0/10",
+          "score": 8.24,
+          "score_text": "8,2/10",
           "spots": [
             "arpoador"
           ],
-          "spot_label": "Arpoador",
-          "qualifiers": [
-            "visibilidade estimada",
-            "INEA não verificado"
-          ],
-          "has_alert": false
+          "spot_label": "Arpoador"
         },
         {
           "activity": "sup",
           "label": "SUP",
-          "score": 7.17,
+          "score": 7.24,
           "score_text": "7,2/10",
           "spots": [
             "copacabana_p5",
             "copacabana_p6"
           ],
-          "spot_label": "P5/P6",
-          "qualifiers": [
-            "alerta do modelo"
-          ],
-          "has_alert": true
+          "spot_label": "Copacabana"
         }
-      ],
-      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
-      "confidence": "baixa"
-    },
-    {
-      "start": 8,
-      "end": 10,
-      "role": "cta",
-      "text": "Salve para conferir amanhã cedo.",
-      "speech": "",
-      "detail": "Zé não negocia com alerta.",
-      "headline": "MELHORES NOTAS",
-      "hook_type": "activity_best_scores",
-      "score_highlights": [
-        {
-          "activity": "canoe",
-          "label": "CANOA",
-          "score": 8.62,
-          "score_text": "8,6/10",
-          "spots": [
-            "praia_vermelha"
-          ],
-          "spot_label": "Praia Vermelha",
-          "qualifiers": [],
-          "has_alert": false
-        },
-        {
-          "activity": "swimming",
-          "label": "NATAÇÃO",
-          "score": 8.56,
-          "score_text": "8,6/10",
-          "spots": [
-            "flamengo",
-            "praia_vermelha"
-          ],
-          "spot_label": "Praia do Flamengo / Praia Vermelha",
-          "qualifiers": [
-            "INEA não verificado"
-          ],
-          "has_alert": false
-        },
-        {
-          "activity": "diving",
-          "label": "MERGULHO",
-          "score": 8.04,
-          "score_text": "8,0/10",
-          "spots": [
-            "arpoador"
-          ],
-          "spot_label": "Arpoador",
-          "qualifiers": [
-            "visibilidade estimada",
-            "INEA não verificado"
-          ],
-          "has_alert": false
-        },
-        {
-          "activity": "sup",
-          "label": "SUP",
-          "score": 7.17,
-          "score_text": "7,2/10",
-          "spots": [
-            "copacabana_p5",
-            "copacabana_p6"
-          ],
-          "spot_label": "P5/P6",
-          "qualifiers": [
-            "alerta do modelo"
-          ],
-          "has_alert": true
-        }
-      ],
-      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
-      "confidence": "baixa"
+      ]
     }
   ],
   "narration_scenes": [
@@ -298,14 +210,11 @@
       "start": 0,
       "end": 10,
       "role": "data_hook",
-      "speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois."
+      "speech": "Natação oito vírgula cinco; Canoa oito vírgula cinco; Mergulho oito vírgula dois; Sup sete vírgula dois."
     }
   ],
   "date_label": "Seg 12/10",
-  "period_label": "PREVISÃO · Seg 12/10",
-  "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
-  "confidence": "baixa",
-  "footage_label": "Imagem ilustrativa",
+  "period_label": "CONDIÇÕES · Seg 12/10",
   "audio": {
     "voice_used": "pt_BR-jeff-medium",
     "max_tempo": 1.15,
@@ -313,8 +222,8 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 6.954,
-        "natural_seconds": 5.968,
+        "source_seconds": 7.349,
+        "natural_seconds": 6.505,
         "slot_seconds": 10.0,
         "tempo": 1.0
       }
