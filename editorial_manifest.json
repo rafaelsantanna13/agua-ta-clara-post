@@ -4,27 +4,15 @@
   "reel_feature_activity": "sup",
   "headline": "SUP · P5/P6: ALERTA DO MODELO",
   "reel_headline": "MELHORES NOTAS",
-  "reel_speech": "Canoa oito vírgula cinco; Natação oito vírgula quatro; Mergulho oito vírgula três.",
+  "reel_speech": "Natação oito vírgula oito; Canoa oito vírgula quatro; Sup sete vírgula nove; Mergulho sete.",
   "reel_call_type": "activity_best_scores",
   "reel_minimum_score": 6.0,
   "reel_score_highlights": [
     {
-      "activity": "canoe",
-      "label": "CANOA",
-      "score": 8.48,
-      "score_text": "8,5/10",
-      "spots": [
-        "copacabana_p6"
-      ],
-      "spot_label": "P6",
-      "qualifiers": [],
-      "has_alert": false
-    },
-    {
       "activity": "swimming",
       "label": "NATAÇÃO",
-      "score": 8.43,
-      "score_text": "8,4/10",
+      "score": 8.84,
+      "score_text": "8,8/10",
       "spots": [
         "flamengo",
         "praia_vermelha"
@@ -36,10 +24,37 @@
       "has_alert": false
     },
     {
+      "activity": "canoe",
+      "label": "CANOA",
+      "score": 8.37,
+      "score_text": "8,4/10",
+      "spots": [
+        "praia_vermelha"
+      ],
+      "spot_label": "Praia Vermelha",
+      "qualifiers": [],
+      "has_alert": false
+    },
+    {
+      "activity": "sup",
+      "label": "SUP",
+      "score": 7.92,
+      "score_text": "7,9/10",
+      "spots": [
+        "copacabana_p5",
+        "copacabana_p6"
+      ],
+      "spot_label": "P5/P6",
+      "qualifiers": [
+        "alerta do modelo"
+      ],
+      "has_alert": true
+    },
+    {
       "activity": "diving",
       "label": "MERGULHO",
-      "score": 8.29,
-      "score_text": "8,3/10",
+      "score": 7.04,
+      "score_text": "7,0/10",
       "spots": [
         "arpoador"
       ],
@@ -51,20 +66,18 @@
       "has_alert": false
     }
   ],
-  "cta_type": "comment_observation",
-  "cta_text": "Conte o pico + horário + condição.",
-  "date_label": "Seg 12/10",
+  "cta_type": "save",
+  "cta_text": "Salve para conferir amanhã cedo.",
+  "date_label": "Ter 13/10",
   "reel_context": {
     "alerts": [
-      "vento terral forte",
-      "ondas acima do limite estimado",
-      "corrente acima do limite estimado"
+      "ondas acima do limite estimado"
     ],
     "has_alert": true,
-    "reason": "vento terral forte · ondas estimadas altas",
+    "reason": "ondas estimadas altas",
     "window": null,
     "period": "Período com alerta · confira antes de sair",
-    "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
+    "caution": "ATENÇÃO · ondas estimadas altas",
     "confidence": "baixa",
     "score_scope": "média diurna",
     "visibility_estimated": false
@@ -111,7 +124,7 @@
   "mascot_candidates": [
     {
       "family": "paddling",
-      "score": 4.18
+      "score": 7.92
     }
   ],
   "reel_mascot_activity_selected": "paddling",
