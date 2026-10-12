@@ -5,10 +5,73 @@
   "duration_seconds": 10,
   "format": "1080x1920",
   "editorial": {
-    "editorial_version": "4.0",
+    "editorial_version": "4.1",
     "hook_type": "model_alert",
     "reel_feature_activity": "sup",
     "headline": "SUP · P5/P6: ALERTA DO MODELO",
+    "reel_headline": "MELHORES NOTAS",
+    "reel_speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
+    "reel_call_type": "activity_best_scores",
+    "reel_minimum_score": 6.0,
+    "reel_score_highlights": [
+      {
+        "activity": "canoe",
+        "label": "CANOA",
+        "score": 8.62,
+        "score_text": "8,6/10",
+        "spots": [
+          "praia_vermelha"
+        ],
+        "spot_label": "Praia Vermelha",
+        "qualifiers": [],
+        "has_alert": false
+      },
+      {
+        "activity": "swimming",
+        "label": "NATAÇÃO",
+        "score": 8.56,
+        "score_text": "8,6/10",
+        "spots": [
+          "flamengo",
+          "praia_vermelha"
+        ],
+        "spot_label": "Praia do Flamengo / Praia Vermelha",
+        "qualifiers": [
+          "INEA não verificado"
+        ],
+        "has_alert": false
+      },
+      {
+        "activity": "diving",
+        "label": "MERGULHO",
+        "score": 8.04,
+        "score_text": "8,0/10",
+        "spots": [
+          "arpoador"
+        ],
+        "spot_label": "Arpoador",
+        "qualifiers": [
+          "visibilidade estimada",
+          "INEA não verificado"
+        ],
+        "has_alert": false
+      },
+      {
+        "activity": "sup",
+        "label": "SUP",
+        "score": 7.17,
+        "score_text": "7,2/10",
+        "spots": [
+          "copacabana_p5",
+          "copacabana_p6"
+        ],
+        "spot_label": "P5/P6",
+        "qualifiers": [
+          "alerta do modelo"
+        ],
+        "has_alert": true
+      }
+    ],
     "cta_type": "save",
     "cta_text": "Salve para conferir amanhã cedo.",
     "date_label": "Seg 12/10",
@@ -28,10 +91,10 @@
     },
     "reel_tied_spots": [],
     "selection_policy": "alerts_then_display_ties_then_score_v4",
-    "experiment_id": "editorial_v4_utility_first",
+    "experiment_id": "editorial_v4_best_activity_scores_min6",
     "experiment_variables": [
       "first_frame_data",
-      "context_and_period",
+      "best_activity_scores_min6",
       "integrated_mascot",
       "single_cta"
     ],
@@ -68,7 +131,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 7.25
+        "score": 7.17
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -89,37 +152,72 @@
   "scenes": [
     {
       "start": 0,
-      "end": 3,
-      "role": "data_hook",
-      "text": "SUP · P5/P6: ALERTA DO MODELO",
-      "speech": "Sup: alerta no modelo.",
-      "detail": "A nota não anula o alerta",
-      "headline": "SUP · P5/P6: ALERTA DO MODELO",
-      "hook_type": "model_alert",
-      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
-      "confidence": "baixa"
-    },
-    {
-      "start": 3,
-      "end": 6,
-      "role": "context",
-      "text": "vento terral forte · ondas estimadas altas",
-      "speech": "Atenção às condições.",
-      "detail": "vento terral forte · ondas estimadas altas",
-      "headline": "SUP · P5/P6: ALERTA DO MODELO",
-      "hook_type": "model_alert",
-      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
-      "confidence": "baixa"
-    },
-    {
-      "start": 6,
       "end": 8,
-      "role": "window_caution",
-      "text": "Período com alerta · confira antes de sair · ATENÇÃO · vento terral forte · ondas estimadas altas",
-      "speech": "Confirme no local.",
-      "detail": "Período com alerta · confira antes de sair",
-      "headline": "SUP · P5/P6: ALERTA DO MODELO",
-      "hook_type": "model_alert",
+      "role": "data_hook",
+      "text": "MELHORES NOTAS",
+      "speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
+      "detail": "A nota não anula o alerta · confira os cards",
+      "headline": "MELHORES NOTAS",
+      "hook_type": "activity_best_scores",
+      "score_highlights": [
+        {
+          "activity": "canoe",
+          "label": "CANOA",
+          "score": 8.62,
+          "score_text": "8,6/10",
+          "spots": [
+            "praia_vermelha"
+          ],
+          "spot_label": "Praia Vermelha",
+          "qualifiers": [],
+          "has_alert": false
+        },
+        {
+          "activity": "swimming",
+          "label": "NATAÇÃO",
+          "score": 8.56,
+          "score_text": "8,6/10",
+          "spots": [
+            "flamengo",
+            "praia_vermelha"
+          ],
+          "spot_label": "Praia do Flamengo / Praia Vermelha",
+          "qualifiers": [
+            "INEA não verificado"
+          ],
+          "has_alert": false
+        },
+        {
+          "activity": "diving",
+          "label": "MERGULHO",
+          "score": 8.04,
+          "score_text": "8,0/10",
+          "spots": [
+            "arpoador"
+          ],
+          "spot_label": "Arpoador",
+          "qualifiers": [
+            "visibilidade estimada",
+            "INEA não verificado"
+          ],
+          "has_alert": false
+        },
+        {
+          "activity": "sup",
+          "label": "SUP",
+          "score": 7.17,
+          "score_text": "7,2/10",
+          "spots": [
+            "copacabana_p5",
+            "copacabana_p6"
+          ],
+          "spot_label": "P5/P6",
+          "qualifiers": [
+            "alerta do modelo"
+          ],
+          "has_alert": true
+        }
+      ],
       "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
       "confidence": "baixa"
     },
@@ -128,12 +226,79 @@
       "end": 10,
       "role": "cta",
       "text": "Salve para conferir amanhã cedo.",
-      "speech": "Salve para amanhã.",
+      "speech": "",
       "detail": "Zé não negocia com alerta.",
-      "headline": "SUP · P5/P6: ALERTA DO MODELO",
-      "hook_type": "model_alert",
+      "headline": "MELHORES NOTAS",
+      "hook_type": "activity_best_scores",
+      "score_highlights": [
+        {
+          "activity": "canoe",
+          "label": "CANOA",
+          "score": 8.62,
+          "score_text": "8,6/10",
+          "spots": [
+            "praia_vermelha"
+          ],
+          "spot_label": "Praia Vermelha",
+          "qualifiers": [],
+          "has_alert": false
+        },
+        {
+          "activity": "swimming",
+          "label": "NATAÇÃO",
+          "score": 8.56,
+          "score_text": "8,6/10",
+          "spots": [
+            "flamengo",
+            "praia_vermelha"
+          ],
+          "spot_label": "Praia do Flamengo / Praia Vermelha",
+          "qualifiers": [
+            "INEA não verificado"
+          ],
+          "has_alert": false
+        },
+        {
+          "activity": "diving",
+          "label": "MERGULHO",
+          "score": 8.04,
+          "score_text": "8,0/10",
+          "spots": [
+            "arpoador"
+          ],
+          "spot_label": "Arpoador",
+          "qualifiers": [
+            "visibilidade estimada",
+            "INEA não verificado"
+          ],
+          "has_alert": false
+        },
+        {
+          "activity": "sup",
+          "label": "SUP",
+          "score": 7.17,
+          "score_text": "7,2/10",
+          "spots": [
+            "copacabana_p5",
+            "copacabana_p6"
+          ],
+          "spot_label": "P5/P6",
+          "qualifiers": [
+            "alerta do modelo"
+          ],
+          "has_alert": true
+        }
+      ],
       "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
       "confidence": "baixa"
+    }
+  ],
+  "narration_scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "role": "data_hook",
+      "speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois."
     }
   ],
   "date_label": "Seg 12/10",
@@ -148,33 +313,9 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 2.392,
-        "natural_seconds": 1.63,
-        "slot_seconds": 3.0,
-        "tempo": 1.0
-      },
-      {
-        "scene": 2,
-        "role": "context",
-        "source_seconds": 2.624,
-        "natural_seconds": 1.401,
-        "slot_seconds": 3.0,
-        "tempo": 1.0
-      },
-      {
-        "scene": 3,
-        "role": "window_caution",
-        "source_seconds": 1.95,
-        "natural_seconds": 1.034,
-        "slot_seconds": 2.0,
-        "tempo": 1.0
-      },
-      {
-        "scene": 4,
-        "role": "cta",
-        "source_seconds": 1.869,
-        "natural_seconds": 0.973,
-        "slot_seconds": 2.0,
+        "source_seconds": 6.954,
+        "natural_seconds": 5.968,
+        "slot_seconds": 10.0,
         "tempo": 1.0
       }
     ]

@@ -1,8 +1,71 @@
 {
-  "editorial_version": "4.0",
+  "editorial_version": "4.1",
   "hook_type": "model_alert",
   "reel_feature_activity": "sup",
   "headline": "SUP · P5/P6: ALERTA DO MODELO",
+  "reel_headline": "MELHORES NOTAS",
+  "reel_speech": "Canoa oito vírgula seis; Natação oito vírgula seis; Mergulho oito; Sup sete vírgula dois.",
+  "reel_call_type": "activity_best_scores",
+  "reel_minimum_score": 6.0,
+  "reel_score_highlights": [
+    {
+      "activity": "canoe",
+      "label": "CANOA",
+      "score": 8.62,
+      "score_text": "8,6/10",
+      "spots": [
+        "praia_vermelha"
+      ],
+      "spot_label": "Praia Vermelha",
+      "qualifiers": [],
+      "has_alert": false
+    },
+    {
+      "activity": "swimming",
+      "label": "NATAÇÃO",
+      "score": 8.56,
+      "score_text": "8,6/10",
+      "spots": [
+        "flamengo",
+        "praia_vermelha"
+      ],
+      "spot_label": "Praia do Flamengo / Praia Vermelha",
+      "qualifiers": [
+        "INEA não verificado"
+      ],
+      "has_alert": false
+    },
+    {
+      "activity": "diving",
+      "label": "MERGULHO",
+      "score": 8.04,
+      "score_text": "8,0/10",
+      "spots": [
+        "arpoador"
+      ],
+      "spot_label": "Arpoador",
+      "qualifiers": [
+        "visibilidade estimada",
+        "INEA não verificado"
+      ],
+      "has_alert": false
+    },
+    {
+      "activity": "sup",
+      "label": "SUP",
+      "score": 7.17,
+      "score_text": "7,2/10",
+      "spots": [
+        "copacabana_p5",
+        "copacabana_p6"
+      ],
+      "spot_label": "P5/P6",
+      "qualifiers": [
+        "alerta do modelo"
+      ],
+      "has_alert": true
+    }
+  ],
   "cta_type": "save",
   "cta_text": "Salve para conferir amanhã cedo.",
   "date_label": "Seg 12/10",
@@ -22,10 +85,10 @@
   },
   "reel_tied_spots": [],
   "selection_policy": "alerts_then_display_ties_then_score_v4",
-  "experiment_id": "editorial_v4_utility_first",
+  "experiment_id": "editorial_v4_best_activity_scores_min6",
   "experiment_variables": [
     "first_frame_data",
-    "context_and_period",
+    "best_activity_scores_min6",
     "integrated_mascot",
     "single_cta"
   ],
@@ -62,7 +125,7 @@
   "mascot_candidates": [
     {
       "family": "paddling",
-      "score": 7.25
+      "score": 7.17
     }
   ],
   "reel_mascot_activity_selected": "paddling",
