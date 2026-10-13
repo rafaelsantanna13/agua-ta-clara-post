@@ -10,7 +10,7 @@
     "reel_feature_activity": "sup",
     "headline": "SUP · P5/P6: ALERTA DO MODELO",
     "reel_headline": "MELHORES NOTAS",
-    "reel_speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula quatro; Mergulho sete vírgula dois.",
+    "reel_speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula cinco; Mergulho sete vírgula quatro.",
     "reel_call_type": "activity_best_scores",
     "reel_minimum_score": 6.0,
     "reel_score_highlights": [
@@ -32,7 +32,7 @@
       {
         "activity": "canoe",
         "label": "CANOA",
-        "score": 8.57,
+        "score": 8.58,
         "score_text": "8,6/10",
         "spots": [
           "copacabana_p6"
@@ -46,8 +46,8 @@
       {
         "activity": "sup",
         "label": "SUP",
-        "score": 8.42,
-        "score_text": "8,4/10",
+        "score": 8.46,
+        "score_text": "8,5/10",
         "spots": [
           "copacabana_p5",
           "copacabana_p6"
@@ -61,8 +61,8 @@
       {
         "activity": "diving",
         "label": "MERGULHO",
-        "score": 7.15,
-        "score_text": "7,2/10",
+        "score": 7.37,
+        "score_text": "7,4/10",
         "spots": [
           "arpoador"
         ],
@@ -132,7 +132,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 8.42
+        "score": 8.46
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -156,7 +156,7 @@
       "end": 10,
       "role": "data_hook",
       "text": "MELHORES NOTAS",
-      "speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula quatro; Mergulho sete vírgula dois.",
+      "speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula cinco; Mergulho sete vírgula quatro.",
       "detail": "",
       "headline": "MELHORES NOTAS",
       "hook_type": "activity_best_scores",
@@ -175,7 +175,7 @@
         {
           "activity": "canoe",
           "label": "CANOA",
-          "score": 8.57,
+          "score": 8.58,
           "score_text": "8,6/10",
           "spots": [
             "copacabana_p6"
@@ -185,8 +185,8 @@
         {
           "activity": "sup",
           "label": "SUP",
-          "score": 8.42,
-          "score_text": "8,4/10",
+          "score": 8.46,
+          "score_text": "8,5/10",
           "spots": [
             "copacabana_p5",
             "copacabana_p6"
@@ -196,8 +196,8 @@
         {
           "activity": "diving",
           "label": "MERGULHO",
-          "score": 7.15,
-          "score_text": "7,2/10",
+          "score": 7.37,
+          "score_text": "7,4/10",
           "spots": [
             "arpoador"
           ],
@@ -211,7 +211,7 @@
       "start": 0,
       "end": 10,
       "role": "data_hook",
-      "speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula quatro; Mergulho sete vírgula dois."
+      "speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula cinco; Mergulho sete vírgula quatro."
     }
   ],
   "date_label": "Ter 13/10",
@@ -223,8 +223,8 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 7.616,
-        "natural_seconds": 6.717,
+        "source_seconds": 7.163,
+        "natural_seconds": 6.51,
         "slot_seconds": 10.0,
         "tempo": 1.0
       }
