@@ -4,15 +4,15 @@
   "reel_feature_activity": "sup",
   "headline": "SUP · P5/P6: ALERTA DO MODELO",
   "reel_headline": "MELHORES NOTAS",
-  "reel_speech": "Natação oito vírgula oito; Canoa oito vírgula quatro; Sup sete vírgula nove; Mergulho sete.",
+  "reel_speech": "Natação nove vírgula um; Canoa oito vírgula seis; Sup oito vírgula quatro; Mergulho sete vírgula dois.",
   "reel_call_type": "activity_best_scores",
   "reel_minimum_score": 6.0,
   "reel_score_highlights": [
     {
       "activity": "swimming",
       "label": "NATAÇÃO",
-      "score": 8.84,
-      "score_text": "8,8/10",
+      "score": 9.09,
+      "score_text": "9,1/10",
       "spots": [
         "flamengo",
         "praia_vermelha"
@@ -26,20 +26,22 @@
     {
       "activity": "canoe",
       "label": "CANOA",
-      "score": 8.37,
-      "score_text": "8,4/10",
+      "score": 8.57,
+      "score_text": "8,6/10",
       "spots": [
-        "praia_vermelha"
+        "copacabana_p6"
       ],
-      "spot_label": "Praia Vermelha",
-      "qualifiers": [],
-      "has_alert": false
+      "spot_label": "P6",
+      "qualifiers": [
+        "alerta do modelo"
+      ],
+      "has_alert": true
     },
     {
       "activity": "sup",
       "label": "SUP",
-      "score": 7.92,
-      "score_text": "7,9/10",
+      "score": 8.42,
+      "score_text": "8,4/10",
       "spots": [
         "copacabana_p5",
         "copacabana_p6"
@@ -53,8 +55,8 @@
     {
       "activity": "diving",
       "label": "MERGULHO",
-      "score": 7.04,
-      "score_text": "7,0/10",
+      "score": 7.15,
+      "score_text": "7,2/10",
       "spots": [
         "arpoador"
       ],
@@ -66,8 +68,8 @@
       "has_alert": false
     }
   ],
-  "cta_type": "save",
-  "cta_text": "Salve para conferir amanhã cedo.",
+  "cta_type": "comment_observation",
+  "cta_text": "Conte o pico + horário + condição.",
   "date_label": "Ter 13/10",
   "reel_context": {
     "alerts": [
@@ -124,7 +126,7 @@
   "mascot_candidates": [
     {
       "family": "paddling",
-      "score": 7.92
+      "score": 8.42
     }
   ],
   "reel_mascot_activity_selected": "paddling",

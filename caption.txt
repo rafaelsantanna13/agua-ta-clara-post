@@ -1,30 +1,31 @@
 🌊 SUP · P5/P6: ALERTA DO MODELO
-PREVISÃO DE AMANHÃ · Ter 13/10
+CONDIÇÕES DO DIA · Ter 13/10
+Ontem: Arpoador 7,0. Hoje cedo: 7,2.
 
 🏄 SURF
-Arpoador 2,7/10 · P5 2,5/10 · Ipanema 1,9/10 · Praia do Diabo 2,6/10
-Faixas de maior nota prevista: Arpoador 08h–09h · P5 17h–17:56 · Ipanema 07h–09h · Praia do Diabo 08h–09h
+Arpoador 2,5/10 · P5 2,5/10 · Ipanema 2,2/10 · Praia do Diabo 2,6/10
+Faixas de maior nota prevista: Arpoador 05:22–08h · P5 05:22–08h · Ipanema 05:22–08h · Praia do Diabo 11h–15h
 
 🏊 NATAÇÃO
-Copacabana 7,2/10 · Praia do Flamengo 8,8/10 · Ipanema 7,2/10 · Praia Vermelha 8,8/10
-Faixas de maior nota prevista: Copacabana 12h–13h · Praia do Flamengo 12h–14h · Ipanema 12h–14h · Praia Vermelha 12h–14h
+Copacabana 7,4/10 · Praia do Flamengo 9,1/10 · Ipanema 7,4/10 · Praia Vermelha 9,1/10
+Faixas de maior nota prevista: Copacabana 08h–10h · Praia do Flamengo 08h–09h · Ipanema 09h–10h · Praia Vermelha 08h–09h
 
 🤿 MERGULHO · estimativa ambiental
-Arpoador 7,0/10 · P6 5,3/10 · Leme 5,3/10 · Praia Vermelha 6,1/10
-Faixas de maior nota prevista: Arpoador 05:22–08h · P6 05:22–09h · Leme 05:22–09h · Praia Vermelha 12h–14h
+Arpoador 7,2/10 · P6 5,3/10 · Leme 5,3/10 · Praia Vermelha 6,4/10
+Faixas de maior nota prevista: Arpoador 05:22–08h · P6 05:22–08h · Leme 05:22–08h · Praia Vermelha 10h–14h
 
 🏄‍♀️ SUP
-P5/P6 7,9/10 ⚠️ alerta · Praia Vermelha 5,6/10 ⚠️ alerta
+P5/P6 8,4/10 ⚠️ alerta · Praia Vermelha 5,1/10 ⚠️ alerta
 
 🛶 CANOA
-P6 8,2/10 ⚠️ alerta · Praia Vermelha 8,4/10
-Faixas de maior nota prevista: Praia Vermelha 05:22–07h
+P6 8,6/10 ⚠️ alerta · Praia Vermelha 8,5/10
+Faixas de maior nota prevista: Praia Vermelha 08h–09h
 
 ⚠️ 🏄‍♀️ SUP · P5/P6: ondas acima do limite estimado
 ⚠️ 🏄‍♀️ SUP · Praia Vermelha: rajadas fortes; ondas acima do limite estimado
 ⚠️ 🛶 CANOA · P6: ondas acima do limite estimado
 
-💾 Salva para conferir amanhã cedo.
+👀 Viu o mar diferente? Comenta o pico + horário.
 
 🕕 Condições às 6h · previsão de amanhã às 17h.
 Notas 0–10 na janela diurna. Segurança e balneabilidade podem limitar ou bloquear uma atividade.
