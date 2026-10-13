@@ -10,15 +10,15 @@
     "reel_feature_activity": "sup",
     "headline": "SUP · P5/P6: ALERTA DO MODELO",
     "reel_headline": "MELHORES NOTAS",
-    "reel_speech": "Natação oito vírgula seis; Canoa oito vírgula quatro; Sup sete vírgula nove; Mergulho sete vírgula quatro.",
+    "reel_speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete.",
     "reel_call_type": "activity_best_scores",
     "reel_minimum_score": 6.0,
     "reel_score_highlights": [
       {
         "activity": "swimming",
         "label": "NATAÇÃO",
-        "score": 8.55,
-        "score_text": "8,6/10",
+        "score": 8.77,
+        "score_text": "8,8/10",
         "spots": [
           "flamengo",
           "praia_vermelha"
@@ -32,8 +32,8 @@
       {
         "activity": "canoe",
         "label": "CANOA",
-        "score": 8.42,
-        "score_text": "8,4/10",
+        "score": 8.57,
+        "score_text": "8,6/10",
         "spots": [
           "praia_vermelha"
         ],
@@ -42,25 +42,10 @@
         "has_alert": false
       },
       {
-        "activity": "sup",
-        "label": "SUP",
-        "score": 7.9,
-        "score_text": "7,9/10",
-        "spots": [
-          "copacabana_p5",
-          "copacabana_p6"
-        ],
-        "spot_label": "P5/P6",
-        "qualifiers": [
-          "alerta do modelo"
-        ],
-        "has_alert": true
-      },
-      {
         "activity": "diving",
         "label": "MERGULHO",
-        "score": 7.37,
-        "score_text": "7,4/10",
+        "score": 7.19,
+        "score_text": "7,2/10",
         "spots": [
           "arpoador"
         ],
@@ -70,6 +55,20 @@
           "INEA não verificado"
         ],
         "has_alert": false
+      },
+      {
+        "activity": "sup",
+        "label": "SUP",
+        "score": 7.01,
+        "score_text": "7,0/10",
+        "spots": [
+          "praia_vermelha"
+        ],
+        "spot_label": "Praia Vermelha",
+        "qualifiers": [
+          "alerta do modelo"
+        ],
+        "has_alert": true
       }
     ],
     "cta_type": "save",
@@ -77,13 +76,14 @@
     "date_label": "Qua 14/10",
     "reel_context": {
       "alerts": [
+        "vento terral forte",
         "ondas acima do limite estimado"
       ],
       "has_alert": true,
-      "reason": "ondas estimadas altas",
+      "reason": "vento terral forte · ondas estimadas altas",
       "window": null,
       "period": "Período com alerta · confira antes de sair",
-      "caution": "ATENÇÃO · ondas estimadas altas",
+      "caution": "ATENÇÃO · vento terral forte · ondas estimadas altas",
       "confidence": "baixa",
       "score_scope": "média diurna",
       "visibility_estimated": false
@@ -130,7 +130,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 7.9
+        "score": 6.84
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -154,7 +154,7 @@
       "end": 10,
       "role": "data_hook",
       "text": "MELHORES NOTAS",
-      "speech": "Natação oito vírgula seis; Canoa oito vírgula quatro; Sup sete vírgula nove; Mergulho sete vírgula quatro.",
+      "speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete.",
       "detail": "",
       "headline": "MELHORES NOTAS",
       "hook_type": "activity_best_scores",
@@ -162,8 +162,8 @@
         {
           "activity": "swimming",
           "label": "NATAÇÃO",
-          "score": 8.55,
-          "score_text": "8,6/10",
+          "score": 8.77,
+          "score_text": "8,8/10",
           "spots": [
             "flamengo",
             "praia_vermelha"
@@ -173,33 +173,32 @@
         {
           "activity": "canoe",
           "label": "CANOA",
-          "score": 8.42,
-          "score_text": "8,4/10",
+          "score": 8.57,
+          "score_text": "8,6/10",
           "spots": [
             "praia_vermelha"
           ],
           "spot_label": "Praia Vermelha"
         },
         {
-          "activity": "sup",
-          "label": "SUP",
-          "score": 7.9,
-          "score_text": "7,9/10",
-          "spots": [
-            "copacabana_p5",
-            "copacabana_p6"
-          ],
-          "spot_label": "Copacabana"
-        },
-        {
           "activity": "diving",
           "label": "MERGULHO",
-          "score": 7.37,
-          "score_text": "7,4/10",
+          "score": 7.19,
+          "score_text": "7,2/10",
           "spots": [
             "arpoador"
           ],
           "spot_label": "Arpoador"
+        },
+        {
+          "activity": "sup",
+          "label": "SUP",
+          "score": 7.01,
+          "score_text": "7,0/10",
+          "spots": [
+            "praia_vermelha"
+          ],
+          "spot_label": "Praia Vermelha"
         }
       ]
     }
@@ -209,7 +208,7 @@
       "start": 0,
       "end": 10,
       "role": "data_hook",
-      "speech": "Natação oito vírgula seis; Canoa oito vírgula quatro; Sup sete vírgula nove; Mergulho sete vírgula quatro."
+      "speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete."
     }
   ],
   "date_label": "Qua 14/10",
@@ -221,8 +220,8 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 7.953,
-        "natural_seconds": 7.195,
+        "source_seconds": 6.861,
+        "natural_seconds": 5.985,
         "slot_seconds": 10.0,
         "tempo": 1.0
       }
