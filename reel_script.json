@@ -10,20 +10,19 @@
     "reel_feature_activity": "sup",
     "headline": "SUP · P5/P6: ALERTA DO MODELO",
     "reel_headline": "MELHORES NOTAS",
-    "reel_speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete.",
+    "reel_speech": "Natação oito vírgula sete; Canoa oito vírgula dois; Sup sete vírgula quatro; Mergulho sete vírgula quatro.",
     "reel_call_type": "activity_best_scores",
     "reel_minimum_score": 6.0,
     "reel_score_highlights": [
       {
         "activity": "swimming",
         "label": "NATAÇÃO",
-        "score": 8.77,
-        "score_text": "8,8/10",
+        "score": 8.7,
+        "score_text": "8,7/10",
         "spots": [
-          "flamengo",
-          "praia_vermelha"
+          "flamengo"
         ],
-        "spot_label": "Praia do Flamengo / Praia Vermelha",
+        "spot_label": "Praia do Flamengo",
         "qualifiers": [
           "INEA não verificado"
         ],
@@ -32,20 +31,37 @@
       {
         "activity": "canoe",
         "label": "CANOA",
-        "score": 8.57,
-        "score_text": "8,6/10",
+        "score": 8.25,
+        "score_text": "8,2/10",
         "spots": [
-          "praia_vermelha"
+          "copacabana_p6"
         ],
-        "spot_label": "Praia Vermelha",
-        "qualifiers": [],
-        "has_alert": false
+        "spot_label": "P6",
+        "qualifiers": [
+          "alerta do modelo"
+        ],
+        "has_alert": true
+      },
+      {
+        "activity": "sup",
+        "label": "SUP",
+        "score": 7.41,
+        "score_text": "7,4/10",
+        "spots": [
+          "copacabana_p5",
+          "copacabana_p6"
+        ],
+        "spot_label": "P5/P6",
+        "qualifiers": [
+          "alerta do modelo"
+        ],
+        "has_alert": true
       },
       {
         "activity": "diving",
         "label": "MERGULHO",
-        "score": 7.19,
-        "score_text": "7,2/10",
+        "score": 7.37,
+        "score_text": "7,4/10",
         "spots": [
           "arpoador"
         ],
@@ -55,24 +71,10 @@
           "INEA não verificado"
         ],
         "has_alert": false
-      },
-      {
-        "activity": "sup",
-        "label": "SUP",
-        "score": 7.01,
-        "score_text": "7,0/10",
-        "spots": [
-          "praia_vermelha"
-        ],
-        "spot_label": "Praia Vermelha",
-        "qualifiers": [
-          "alerta do modelo"
-        ],
-        "has_alert": true
       }
     ],
-    "cta_type": "save",
-    "cta_text": "Salve para conferir amanhã cedo.",
+    "cta_type": "comment_observation",
+    "cta_text": "Conte o pico + horário + condição.",
     "date_label": "Qua 14/10",
     "reel_context": {
       "alerts": [
@@ -130,7 +132,7 @@
     "mascot_candidates": [
       {
         "family": "paddling",
-        "score": 6.84
+        "score": 7.41
       }
     ],
     "reel_mascot_activity_selected": "paddling",
@@ -143,7 +145,7 @@
     "promise": "Condições às 6h · previsão de amanhã às 17h",
     "card_headlines": {
       "surf": "Surf fraco · confira a formação e os períodos",
-      "water": "Natação: Flamengo e Praia Vermelha · INEA não verificado",
+      "water": "Natação: Flamengo · INEA não verificado",
       "paddling": "SUP · alertas no período; confira as condições"
     },
     "mascot_reaction": "Zé não negocia com alerta."
@@ -154,7 +156,7 @@
       "end": 10,
       "role": "data_hook",
       "text": "MELHORES NOTAS",
-      "speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete.",
+      "speech": "Natação oito vírgula sete; Canoa oito vírgula dois; Sup sete vírgula quatro; Mergulho sete vírgula quatro.",
       "detail": "",
       "headline": "MELHORES NOTAS",
       "hook_type": "activity_best_scores",
@@ -162,43 +164,43 @@
         {
           "activity": "swimming",
           "label": "NATAÇÃO",
-          "score": 8.77,
-          "score_text": "8,8/10",
+          "score": 8.7,
+          "score_text": "8,7/10",
           "spots": [
-            "flamengo",
-            "praia_vermelha"
+            "flamengo"
           ],
-          "spot_label": "Praia do Flamengo / Praia Vermelha"
+          "spot_label": "Praia do Flamengo"
         },
         {
           "activity": "canoe",
           "label": "CANOA",
-          "score": 8.57,
-          "score_text": "8,6/10",
+          "score": 8.25,
+          "score_text": "8,2/10",
           "spots": [
-            "praia_vermelha"
+            "copacabana_p6"
           ],
-          "spot_label": "Praia Vermelha"
-        },
-        {
-          "activity": "diving",
-          "label": "MERGULHO",
-          "score": 7.19,
-          "score_text": "7,2/10",
-          "spots": [
-            "arpoador"
-          ],
-          "spot_label": "Arpoador"
+          "spot_label": "Copacabana"
         },
         {
           "activity": "sup",
           "label": "SUP",
-          "score": 7.01,
-          "score_text": "7,0/10",
+          "score": 7.41,
+          "score_text": "7,4/10",
           "spots": [
-            "praia_vermelha"
+            "copacabana_p5",
+            "copacabana_p6"
           ],
-          "spot_label": "Praia Vermelha"
+          "spot_label": "Copacabana"
+        },
+        {
+          "activity": "diving",
+          "label": "MERGULHO",
+          "score": 7.37,
+          "score_text": "7,4/10",
+          "spots": [
+            "arpoador"
+          ],
+          "spot_label": "Arpoador"
         }
       ]
     }
@@ -208,11 +210,11 @@
       "start": 0,
       "end": 10,
       "role": "data_hook",
-      "speech": "Natação oito vírgula oito; Canoa oito vírgula seis; Mergulho sete vírgula dois; Sup sete."
+      "speech": "Natação oito vírgula sete; Canoa oito vírgula dois; Sup sete vírgula quatro; Mergulho sete vírgula quatro."
     }
   ],
   "date_label": "Qua 14/10",
-  "period_label": "PREVISÃO · Qua 14/10",
+  "period_label": "CONDIÇÕES · Qua 14/10",
   "audio": {
     "voice_used": "pt_BR-jeff-medium",
     "max_tempo": 1.15,
@@ -220,8 +222,8 @@
       {
         "scene": 1,
         "role": "data_hook",
-        "source_seconds": 6.861,
-        "natural_seconds": 5.985,
+        "source_seconds": 7.686,
+        "natural_seconds": 6.899,
         "slot_seconds": 10.0,
         "tempo": 1.0
       }
