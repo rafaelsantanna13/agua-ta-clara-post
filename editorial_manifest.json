@@ -4,7 +4,7 @@
   "reel_feature_activity": "sup",
   "headline": "SUP · P5/P6: ALERTA DO MODELO",
   "reel_headline": "MELHORES NOTAS",
-  "reel_speech": "Natação oito vírgula sete; Canoa oito vírgula dois; Sup sete vírgula quatro; Mergulho sete vírgula quatro.",
+  "reel_speech": "Natação oito vírgula sete; Canoa oito vírgula quatro; Sup sete vírgula quatro; Mergulho sete vírgula quatro.",
   "reel_call_type": "activity_best_scores",
   "reel_minimum_score": 6.0,
   "reel_score_highlights": [
@@ -14,9 +14,10 @@
       "score": 8.7,
       "score_text": "8,7/10",
       "spots": [
-        "flamengo"
+        "flamengo",
+        "praia_vermelha"
       ],
-      "spot_label": "Praia do Flamengo",
+      "spot_label": "Praia do Flamengo / Praia Vermelha",
       "qualifiers": [
         "INEA não verificado"
       ],
@@ -25,16 +26,14 @@
     {
       "activity": "canoe",
       "label": "CANOA",
-      "score": 8.25,
-      "score_text": "8,2/10",
+      "score": 8.43,
+      "score_text": "8,4/10",
       "spots": [
-        "copacabana_p6"
+        "praia_vermelha"
       ],
-      "spot_label": "P6",
-      "qualifiers": [
-        "alerta do modelo"
-      ],
-      "has_alert": true
+      "spot_label": "Praia Vermelha",
+      "qualifiers": [],
+      "has_alert": false
     },
     {
       "activity": "sup",
@@ -139,7 +138,7 @@
   "promise": "Condições às 6h · previsão de amanhã às 17h",
   "card_headlines": {
     "surf": "Surf fraco · confira a formação e os períodos",
-    "water": "Natação: Flamengo · INEA não verificado",
+    "water": "Natação: Flamengo e Praia Vermelha · INEA não verificado",
     "paddling": "SUP · alertas no período; confira as condições"
   },
   "mascot_reaction": "Zé não negocia com alerta."
